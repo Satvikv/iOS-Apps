@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Room_name</key>
+		<string>ENTREE</string>
+		<key>Color</key>
+		<string>YELLOW</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Porte-manteaux</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Coat racks1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble à chaussures</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Shoe cabinet1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Console</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Console1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble d’appoint (commode)</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Casual furniture (dresser)1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Miroir</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Mirror1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Petit meuble d’appoint</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Small auxiliary cabinet1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Etagère</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Shelf1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble colonne</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>Column furniture1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble bas (bahut)</string>
+				<key>Volume</key>
+				<string>1.4</string>
+				<key>Icon</key>
+				<string>Low cabinet (chest)1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Petite étagère</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Small shelf1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton livres</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>cardboard books1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton stand</string>
+				<key>Volume</key>
+				<string>0.2</string>
+				<key>Icon</key>
+				<string>Carton stand1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Luminaire</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Lighting1.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tapis</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Carpet1.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>SALON</string>
+		<key>Color</key>
+		<string>ORANGE</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Table 4/6 pers</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Table 4_6 people2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table &gt;8 pers</string>
+				<key>Volume</key>
+				<string>1</string>
+				<key>Icon</key>
+				<string>Table_8 people2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table basse</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Coffee table2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Chair2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Guéridon</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Pedestal2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Console</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Console2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Fauteuil</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Armchair2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Fauteuil club</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Club Chair2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Canapé 2 places</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>2 seater sofa2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Canapé 3 places</string>
+				<key>Volume</key>
+				<string>1.6</string>
+				<key>Icon</key>
+				<string>3 seater sofa2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Canapé d&apos;angle</string>
+				<key>Volume</key>
+				<string>3.2</string>
+				<key>Icon</key>
+				<string>Corner sofa2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Canapé clic-clac</string>
+				<key>Volume</key>
+				<string>1.4</string>
+				<key>Icon</key>
+				<string>Sofa bed2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Canapé B-Z</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Sofa B-Z2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Pouf</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Pouffe2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Miroir</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Mirror2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Etagère</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Shelf2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble bas(bahut)</string>
+				<key>Volume</key>
+				<string>1.4</string>
+				<key>Icon</key>
+				<string>Low cabinet (chest)2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Living</string>
+				<key>Volume</key>
+				<string>3.3</string>
+				<key>Icon</key>
+				<string>Living2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire d’époque</string>
+				<key>Volume</key>
+				<string>1.8</string>
+				<key>Icon</key>
+				<string>Antique cabinet2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Vaisselier/buffet</string>
+				<key>Volume</key>
+				<string>2.2</string>
+				<key>Icon</key>
+				<string>Hutch _Buffet2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble télé bas</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>TV stand down2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble télé grand</string>
+				<key>Volume</key>
+				<string>1</string>
+				<key>Icon</key>
+				<string>Large TV stand2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Télé à écran plat</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Flat screen TV2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Télé cathodique</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>CRT TV2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble escalier</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Stair Cabinet2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Porte manteaux</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Coat racks2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Banc</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Bench2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lustre</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Chandelier2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Méridienne</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Meridienne2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Rocking-chair</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Rocking-chair2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Secretaire</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Secretary cabinet2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tapis</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Carpet2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Bureau</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Desk2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise de bureau</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Office chair2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Luminaire</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Lighting2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tables gigogne</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Nesting tables2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tabouret</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Stool2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Petite étagère</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Small shelf2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Climatiseur mobile</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Portable air conditioner2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Colonne à CD’s</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>CD Column2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Petit luminaire</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Small light2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton stand</string>
+				<key>Volume</key>
+				<string>0.2</string>
+				<key>Icon</key>
+				<string>Carton stand2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton livres</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Cardboard books2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble coin</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>corner desk2.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Etagère colonne</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>Shelf column2.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>CHAMBRE PARENTS</string>
+		<key>Color</key>
+		<string>VIOLET</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Meuble sous vasque</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Washstand3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Elément haut</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>High cabinet3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Panier à linge</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Clothes basket3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble colonne</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>Column furniture3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Miroir</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Mirror3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble à pharmacie</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Medicine cabinet3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table à langer</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Changing Table3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lave linge</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>washing machine3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sèche linge</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Dryer Laundry3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton stand</string>
+				<key>Volume</key>
+				<string>0.2</string>
+				<key>Icon</key>
+				<string>Carton stand3.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton livres</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Cardboard books3.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>CHAMBRE</string>
+		<key>Color</key>
+		<string>PINK</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Cuisinière</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Cooker4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Four encastrable</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Built-in oven4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Plaque de cuisson</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Gas Hob4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Hotte</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>cooker hood4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lave vaisselle</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>dishwasher4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lave linge</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Washer4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Sèche linge</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Dryer Laundry4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table 4/6 pers</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Table 4_6 people4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table bistrot</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Bistro table4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table pliable</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Folding table4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise pliable</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Folding chair4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Chair4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Element haut 60cm</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>High cabinet 60cm4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Element haut 80cm</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>High cabinet 80cm4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Element bas 60cm</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Low cabinet 60cm4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Element bas 80cm</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Low cabinet 80cm4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Meuble colonne</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>Column furniture4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Vaisselier/buffet</string>
+				<key>Volume</key>
+				<string>2.2</string>
+				<key>Icon</key>
+				<string>Sideboard buffet4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Poubelle</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Garbage can4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Frigidaire</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Fridge4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Frigo top</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Top Fridge4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Congelateur</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Freezer4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Micro-onde</string>
+				<key>Volume</key>
+				<string>0.2</string>
+				<key>Icon</key>
+				<string>Microwave4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Banc</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Bench4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tabouret</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Stool4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise haute</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Highchair4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton stand</string>
+				<key>Volume</key>
+				<string>0.2</string>
+				<key>Icon</key>
+				<string>Carton stand4.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton livres</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Cardboard books4.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>SDB/WC</string>
+		<key>Color</key>
+		<string>BLUE</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Lit double</string>
+				<key>Volume</key>
+				<string>2.2</string>
+				<key>Icon</key>
+				<string>Double Bed5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chevet</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Bedside5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Commode</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Chest of drawers5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chiffonnier</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Chiffonier5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Secretaire</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Secretary cabinet5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Bureau</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Desk5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise de bureau</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Office chair5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Coiffeuse</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Dressing table5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 2ptes (demontable)</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>2 Door Wardrobe (removable)5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 3ptes (Demontable)</string>
+				<key>Volume</key>
+				<string>1.5</string>
+				<key>Icon</key>
+				<string>3 Door Wardrobe (removable)5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 4ptes (demontable)</string>
+				<key>Volume</key>
+				<string>1.8</string>
+				<key>Icon</key>
+				<string>4 Door Wardrobe (removable)5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire d’epoque</string>
+				<key>Volume</key>
+				<string>2.2</string>
+				<key>Icon</key>
+				<string>Antique wardrobe5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Velo d’appt</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Exercise bike5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Coffre</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Coffer5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tele ecran plat</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Flat screen TV5.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tele cathodique</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>CRT TV5.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>CUISINE</string>
+		<key>Color</key>
+		<string>BLACK</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Lit double</string>
+				<key>Volume</key>
+				<string>2.2</string>
+				<key>Icon</key>
+				<string>Double bed6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lit simple</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Single bed6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lits mezzanine</string>
+				<key>Volume</key>
+				<string>2.4</string>
+				<key>Icon</key>
+				<string>Loft beds6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Lit bebe</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Crib6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table a langer</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Changing Table6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 1 porte</string>
+				<key>Volume</key>
+				<string>1</string>
+				<key>Icon</key>
+				<string>1 Door Wardrobe6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 2ptes (demontable)</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>2 Door Wardrobe (removable)6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 3ptes (Demontable)</string>
+				<key>Volume</key>
+				<string>1.5</string>
+				<key>Icon</key>
+				<string>3 Door Wardrobe (removable)6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire 4ptes (demontable)</string>
+				<key>Volume</key>
+				<string>1.8</string>
+				<key>Icon</key>
+				<string>4 Door Wardrobe (removable)6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Armoire d’epoque</string>
+				<key>Volume</key>
+				<string>2.2</string>
+				<key>Icon</key>
+				<string>Antique wardrobe6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Velo d’appt</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Exercise bike6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Coffre</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Coffer6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tele ecran plat</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Flat screen TV6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tele cathodique</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>CRT TV6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Etagere</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Shelf6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Petite etagere</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Smal shelf6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Bureau</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Desk6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Bureau avec retour</string>
+				<key>Volume</key>
+				<string>1.5</string>
+				<key>Icon</key>
+				<string>desk with back6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise de bureau</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Office chair6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Luminaire</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Lighting6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Miroir</string>
+				<key>Volume</key>
+				<string>0.3</string>
+				<key>Icon</key>
+				<string>Mirror6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Commode</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Chest of drawers6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton livres</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Cardboard Books6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Carton stand</string>
+				<key>Volume</key>
+				<string>0.2</string>
+				<key>Icon</key>
+				<string>Carton stand6.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Jouet volumineux</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>large toy6.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>TERRASSE/JARDIN</string>
+		<key>Color</key>
+		<string>GREEN</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Chaise de jardin</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Lawn chair8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Chaise longue</string>
+				<key>Volume</key>
+				<string>0.8</string>
+				<key>Icon</key>
+				<string>Deck chair8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table de jardin</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Garden table8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Barbecue</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Barbecue8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Grande plante</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>Large plant8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Petite plante</string>
+				<key>Volume</key>
+				<string>0.4</string>
+				<key>Icon</key>
+				<string>Small plant8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Jardiniere</string>
+				<key>Volume</key>
+				<string>0.1</string>
+				<key>Icon</key>
+				<string>Jardiniere8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Escabeau  </string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Stepladder8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Tondeuse  </string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Mower8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Rayonnage</string>
+				<key>Volume</key>
+				<string>1</string>
+				<key>Icon</key>
+				<string>corner desk8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Brouette</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Shelf column8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Vélo adulte</string>
+				<key>Volume</key>
+				<string>0.7</string>
+				<key>Icon</key>
+				<string>Adult bike8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Vélo enfant</string>
+				<key>Volume</key>
+				<string>0.5</string>
+				<key>Icon</key>
+				<string>Child bike8.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Toboggan  </string>
+				<key>Volume</key>
+				<string>1.1</string>
+				<key>Icon</key>
+				<string>Slide8.png</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Room_name</key>
+		<string>OBJETS SPECIFIQUES</string>
+		<key>Color</key>
+		<string>RED</string>
+		<key>Room_items</key>
+		<array>
+			<dict>
+				<key>Name</key>
+				<string>Frigo americain</string>
+				<key>Volume</key>
+				<string>1.5</string>
+				<key>Icon</key>
+				<string>American Fridge9.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Piano droit</string>
+				<key>Volume</key>
+				<string>1.2</string>
+				<key>Icon</key>
+				<string>Upright piano9.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Piano quart de queu</string>
+				<key>Volume</key>
+				<string>1.5</string>
+				<key>Icon</key>
+				<string>Grand piano9.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Coffre fort</string>
+				<key>Volume</key>
+				<string>0.6</string>
+				<key>Icon</key>
+				<string>Strongbox9.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Table de billard</string>
+				<key>Volume</key>
+				<string>1.6</string>
+				<key>Icon</key>
+				<string>Pool table9.png</string>
+			</dict>
+			<dict>
+				<key>Name</key>
+				<string>Moto/scooter</string>
+				<key>Volume</key>
+				<string>0.9</string>
+				<key>Icon</key>
+				<string>Motorcycle  scooter9.png</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

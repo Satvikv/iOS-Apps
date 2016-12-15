@@ -1,0 +1,1734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D402F70B18BF022000108F8D /* info-26.png in Resources */ = {isa = PBXBuildFile; fileRef = D402F70A18BF022000108F8D /* info-26.png */; };
+		D40A230818B1ECFF008706E5 /* Tasks.plist in Resources */ = {isa = PBXBuildFile; fileRef = D40A230718B1ECFF008706E5 /* Tasks.plist */; };
+		D40A231C18B1F259008706E5 /* check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A230A18B1F259008706E5 /* check_box.png */; };
+		D40A231D18B1F259008706E5 /* check_box_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A230B18B1F259008706E5 /* check_box_empty.png */; };
+		D40A231E18B1F259008706E5 /* checked_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A230C18B1F259008706E5 /* checked_box.png */; };
+		D40A231F18B1F259008706E5 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A230D18B1F259008706E5 /* checkmark.png */; };
+		D40A232018B1F259008706E5 /* Class Comfort_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A230E18B1F259008706E5 /* Class Comfort_1.png */; };
+		D40A232118B1F259008706E5 /* Class Economic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A230F18B1F259008706E5 /* Class Economic_1.png */; };
+		D40A232218B1F259008706E5 /* Class Standard_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231018B1F259008706E5 /* Class Standard_1.png */; };
+		D40A232318B1F259008706E5 /* class_comfort-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231118B1F259008706E5 /* class_comfort-3.png */; };
+		D40A232418B1F259008706E5 /* class_economic-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231218B1F259008706E5 /* class_economic-3.png */; };
+		D40A232518B1F259008706E5 /* class_standard-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231318B1F259008706E5 /* class_standard-3.png */; };
+		D40A232618B1F259008706E5 /* close_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231418B1F259008706E5 /* close_icon.png */; };
+		D40A232718B1F259008706E5 /* Confort_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = D40A231518B1F259008706E5 /* Confort_fr.html */; };
+		D40A232818B1F259008706E5 /* Economique_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = D40A231618B1F259008706E5 /* Economique_fr.html */; };
+		D40A232918B1F259008706E5 /* empty_check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231718B1F259008706E5 /* empty_check_box.png */; };
+		D40A232A18B1F259008706E5 /* FrenchCategories.plist in Resources */ = {isa = PBXBuildFile; fileRef = D40A231818B1F259008706E5 /* FrenchCategories.plist */; };
+		D40A232B18B1F259008706E5 /* line-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D40A231918B1F259008706E5 /* line-1.png */; };
+		D40A232C18B1F259008706E5 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = D40A231A18B1F259008706E5 /* main.css */; };
+		D40A232D18B1F259008706E5 /* Standard_fr.html in Resources */ = {isa = PBXBuildFile; fileRef = D40A231B18B1F259008706E5 /* Standard_fr.html */; };
+		D418AFE018B3155A00D5CFBF /* PackageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D418AFDF18B3155A00D5CFBF /* PackageViewController.m */; };
+		D418AFE218B3218200D5CFBF /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = D418AFE118B3218200D5CFBF /* line.png */; };
+		D418AFE718B38DD300D5CFBF /* SQLiteDbController.m in Sources */ = {isa = PBXBuildFile; fileRef = D418AFE618B38DD300D5CFBF /* SQLiteDbController.m */; };
+		D41EC10018A1F13B00402FF0 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC0FE18A1F13B00402FF0 /* Background.png */; };
+		D41EC10118A1F13B00402FF0 /* orange_strip.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC0FF18A1F13B00402FF0 /* orange_strip.png */; };
+		D41EC10418A2124400402FF0 /* MDDAddRoomsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41EC10318A2124400402FF0 /* MDDAddRoomsViewController.m */; };
+		D41EC1BD18A222D200402FF0 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10618A222D200402FF0 /* add.png */; };
+		D41EC1BE18A222D200402FF0 /* Cardboard books3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10818A222D200402FF0 /* Cardboard books3.png */; };
+		D41EC1BF18A222D200402FF0 /* Carton stand3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10918A222D200402FF0 /* Carton stand3.png */; };
+		D41EC1C018A222D200402FF0 /* Changing Table3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10A18A222D200402FF0 /* Changing Table3.png */; };
+		D41EC1C118A222D200402FF0 /* Clothes basket3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10B18A222D200402FF0 /* Clothes basket3.png */; };
+		D41EC1C218A222D200402FF0 /* Column furniture3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10C18A222D200402FF0 /* Column furniture3.png */; };
+		D41EC1C318A222D200402FF0 /* Dryer Laundry3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10D18A222D200402FF0 /* Dryer Laundry3.png */; };
+		D41EC1C418A222D200402FF0 /* High cabinet3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10E18A222D200402FF0 /* High cabinet3.png */; };
+		D41EC1C518A222D200402FF0 /* Medicine cabinet3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC10F18A222D200402FF0 /* Medicine cabinet3.png */; };
+		D41EC1C618A222D200402FF0 /* Mirror3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11018A222D200402FF0 /* Mirror3.png */; };
+		D41EC1C718A222D200402FF0 /* washing machine3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11118A222D200402FF0 /* washing machine3.png */; };
+		D41EC1C818A222D200402FF0 /* Washstand3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11218A222D200402FF0 /* Washstand3.png */; };
+		D41EC1C918A222D200402FF0 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11318A222D200402FF0 /* camera.png */; };
+		D41EC1CA18A222D200402FF0 /* 1 Door Wardrobe6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11518A222D200402FF0 /* 1 Door Wardrobe6.png */; };
+		D41EC1CB18A222D200402FF0 /* 2 Door Wardrobe (removable)6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11618A222D200402FF0 /* 2 Door Wardrobe (removable)6.png */; };
+		D41EC1CC18A222D200402FF0 /* 3 Door Wardrobe (removable)6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11718A222D200402FF0 /* 3 Door Wardrobe (removable)6.png */; };
+		D41EC1CD18A222D200402FF0 /* 4 Door Wardrobe (removable)6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11818A222D200402FF0 /* 4 Door Wardrobe (removable)6.png */; };
+		D41EC1CE18A222D200402FF0 /* Antique wardrobe6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11918A222D200402FF0 /* Antique wardrobe6.png */; };
+		D41EC1CF18A222D200402FF0 /* Cardboard Books6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11A18A222D200402FF0 /* Cardboard Books6.png */; };
+		D41EC1D018A222D200402FF0 /* Carpet6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11B18A222D200402FF0 /* Carpet6.png */; };
+		D41EC1D118A222D200402FF0 /* Carton stand6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11C18A222D200402FF0 /* Carton stand6.png */; };
+		D41EC1D218A222D200402FF0 /* Changing Table6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11D18A222D200402FF0 /* Changing Table6.png */; };
+		D41EC1D318A222D200402FF0 /* Chest of drawers6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11E18A222D200402FF0 /* Chest of drawers6.png */; };
+		D41EC1D418A222D200402FF0 /* Coffer6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC11F18A222D200402FF0 /* Coffer6.png */; };
+		D41EC1D518A222D200402FF0 /* Crib6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12018A222D200402FF0 /* Crib6.png */; };
+		D41EC1D618A222D200402FF0 /* CRT TV6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12118A222D200402FF0 /* CRT TV6.png */; };
+		D41EC1D718A222D200402FF0 /* desk with back6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12218A222D200402FF0 /* desk with back6.png */; };
+		D41EC1D818A222D200402FF0 /* Desk6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12318A222D200402FF0 /* Desk6.png */; };
+		D41EC1D918A222D200402FF0 /* Double bed6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12418A222D200402FF0 /* Double bed6.png */; };
+		D41EC1DA18A222D200402FF0 /* Exercise bike6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12518A222D200402FF0 /* Exercise bike6.png */; };
+		D41EC1DB18A222D200402FF0 /* Flat screen TV6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12618A222D200402FF0 /* Flat screen TV6.png */; };
+		D41EC1DC18A222D200402FF0 /* large toy6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12718A222D200402FF0 /* large toy6.png */; };
+		D41EC1DD18A222D200402FF0 /* Lighting6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12818A222D200402FF0 /* Lighting6.png */; };
+		D41EC1DE18A222D200402FF0 /* Loft beds6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12918A222D200402FF0 /* Loft beds6.png */; };
+		D41EC1DF18A222D200402FF0 /* Mirror6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12A18A222D200402FF0 /* Mirror6.png */; };
+		D41EC1E018A222D200402FF0 /* Office chair6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12B18A222D200402FF0 /* Office chair6.png */; };
+		D41EC1E118A222D200402FF0 /* Shelf6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12C18A222D200402FF0 /* Shelf6.png */; };
+		D41EC1E218A222D200402FF0 /* Single bed6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12D18A222D200402FF0 /* Single bed6.png */; };
+		D41EC1E318A222D200402FF0 /* Smal shelf6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12E18A222D200402FF0 /* Smal shelf6.png */; };
+		D41EC1E418A222D200402FF0 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC12F18A222D200402FF0 /* close.png */; };
+		D41EC1E518A222D200402FF0 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13018A222D200402FF0 /* delete.png */; };
+		D41EC1E618A222D200402FF0 /* Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13118A222D200402FF0 /* Ding.wav */; };
+		D41EC1E718A222D200402FF0 /* app Icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13318A222D200402FF0 /* app Icon_iPhone.png */; };
+		D41EC1E818A222D200402FF0 /* cardboard books1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13418A222D200402FF0 /* cardboard books1.png */; };
+		D41EC1E918A222D200402FF0 /* Carpet1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13518A222D200402FF0 /* Carpet1.png */; };
+		D41EC1EA18A222D200402FF0 /* Carton stand1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13618A222D200402FF0 /* Carton stand1.png */; };
+		D41EC1EB18A222D200402FF0 /* Casual furniture (dresser)1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13718A222D200402FF0 /* Casual furniture (dresser)1.png */; };
+		D41EC1EC18A222D200402FF0 /* Coat racks1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13818A222D200402FF0 /* Coat racks1.png */; };
+		D41EC1ED18A222D200402FF0 /* Column furniture1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13918A222D200402FF0 /* Column furniture1.png */; };
+		D41EC1EE18A222D200402FF0 /* Console1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13A18A222D200402FF0 /* Console1.png */; };
+		D41EC1EF18A222D200402FF0 /* Lighting1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13B18A222D200402FF0 /* Lighting1.png */; };
+		D41EC1F018A222D200402FF0 /* Low cabinet (chest)1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13C18A222D200402FF0 /* Low cabinet (chest)1.png */; };
+		D41EC1F118A222D200402FF0 /* Mirror1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13D18A222D200402FF0 /* Mirror1.png */; };
+		D41EC1F218A222D200402FF0 /* Shelf1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13E18A222D200402FF0 /* Shelf1.png */; };
+		D41EC1F318A222D200402FF0 /* Shoe cabinet1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC13F18A222D200402FF0 /* Shoe cabinet1.png */; };
+		D41EC1F418A222D200402FF0 /* Small auxiliary cabinet1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14018A222D200402FF0 /* Small auxiliary cabinet1.png */; };
+		D41EC1F518A222D200402FF0 /* Small shelf1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14118A222D200402FF0 /* Small shelf1.png */; };
+		D41EC1F718A222D200402FF0 /* Bench4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14418A222D200402FF0 /* Bench4.png */; };
+		D41EC1F818A222D200402FF0 /* Bistro table4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14518A222D200402FF0 /* Bistro table4.png */; };
+		D41EC1F918A222D200402FF0 /* Built-in oven4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14618A222D200402FF0 /* Built-in oven4.png */; };
+		D41EC1FA18A222D200402FF0 /* Cardboard books4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14718A222D200402FF0 /* Cardboard books4.png */; };
+		D41EC1FB18A222D200402FF0 /* Carton stand4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14818A222D200402FF0 /* Carton stand4.png */; };
+		D41EC1FC18A222D200402FF0 /* Chair4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14918A222D200402FF0 /* Chair4.png */; };
+		D41EC1FD18A222D200402FF0 /* Column furniture4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14A18A222D200402FF0 /* Column furniture4.png */; };
+		D41EC1FE18A222D200402FF0 /* cooker hood4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14B18A222D200402FF0 /* cooker hood4.png */; };
+		D41EC1FF18A222D200402FF0 /* Cooker4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14C18A222D200402FF0 /* Cooker4.png */; };
+		D41EC20018A222D200402FF0 /* dishwasher4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14D18A222D200402FF0 /* dishwasher4.png */; };
+		D41EC20118A222D200402FF0 /* Dryer Laundry4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14E18A222D200402FF0 /* Dryer Laundry4.png */; };
+		D41EC20218A222D200402FF0 /* Folding chair4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC14F18A222D200402FF0 /* Folding chair4.png */; };
+		D41EC20318A222D200402FF0 /* Folding table4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15018A222D200402FF0 /* Folding table4.png */; };
+		D41EC20418A222D200402FF0 /* Freezer4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15118A222D200402FF0 /* Freezer4.png */; };
+		D41EC20518A222D200402FF0 /* Fridge4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15218A222D200402FF0 /* Fridge4.png */; };
+		D41EC20618A222D200402FF0 /* Garbage can4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15318A222D200402FF0 /* Garbage can4.png */; };
+		D41EC20718A222D200402FF0 /* Gas Hob4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15418A222D200402FF0 /* Gas Hob4.png */; };
+		D41EC20818A222D200402FF0 /* High cabinet 80cm4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15518A222D200402FF0 /* High cabinet 80cm4.png */; };
+		D41EC20918A222D200402FF0 /* Highchair4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15618A222D200402FF0 /* Highchair4.png */; };
+		D41EC20A18A222D200402FF0 /* Low cabinet 60cm4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15718A222D200402FF0 /* Low cabinet 60cm4.png */; };
+		D41EC20B18A222D200402FF0 /* Low cabinet 80cm4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15818A222D200402FF0 /* Low cabinet 80cm4.png */; };
+		D41EC20C18A222D200402FF0 /* Microwave4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15918A222D200402FF0 /* Microwave4.png */; };
+		D41EC20D18A222D200402FF0 /* Sideboard buffet4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15A18A222D200402FF0 /* Sideboard buffet4.png */; };
+		D41EC20E18A222D200402FF0 /* Stool4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15B18A222D200402FF0 /* Stool4.png */; };
+		D41EC20F18A222D200402FF0 /* Table 4_6 people4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15C18A222D200402FF0 /* Table 4_6 people4.png */; };
+		D41EC21018A222D200402FF0 /* Top Fridge4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15D18A222D200402FF0 /* Top Fridge4.png */; };
+		D41EC21118A222D200402FF0 /* Washer4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC15E18A222D200402FF0 /* Washer4.png */; };
+		D41EC21218A222D200402FF0 /* 2 seater sofa2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16018A222D200402FF0 /* 2 seater sofa2.png */; };
+		D41EC21318A222D200402FF0 /* 3 seater sofa2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16118A222D200402FF0 /* 3 seater sofa2.png */; };
+		D41EC21418A222D200402FF0 /* Antique cabinet2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16218A222D200402FF0 /* Antique cabinet2.png */; };
+		D41EC21518A222D200402FF0 /* Armchair2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16318A222D200402FF0 /* Armchair2.png */; };
+		D41EC21618A222D200402FF0 /* Bench2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16418A222D200402FF0 /* Bench2.png */; };
+		D41EC21718A222D200402FF0 /* Cardboard books2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16518A222D200402FF0 /* Cardboard books2.png */; };
+		D41EC21818A222D200402FF0 /* Carpet2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16618A222D200402FF0 /* Carpet2.png */; };
+		D41EC21918A222D200402FF0 /* Carton stand2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16718A222D200402FF0 /* Carton stand2.png */; };
+		D41EC21A18A222D200402FF0 /* CD Column2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16818A222D200402FF0 /* CD Column2.png */; };
+		D41EC21B18A222D200402FF0 /* Chair2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16918A222D200402FF0 /* Chair2.png */; };
+		D41EC21C18A222D200402FF0 /* Chandelier2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16A18A222D200402FF0 /* Chandelier2.png */; };
+		D41EC21D18A222D200402FF0 /* Club Chair2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16B18A222D200402FF0 /* Club Chair2.png */; };
+		D41EC21E18A222D200402FF0 /* Coat racks2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16C18A222D200402FF0 /* Coat racks2.png */; };
+		D41EC21F18A222D200402FF0 /* Coffee table2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16D18A222D200402FF0 /* Coffee table2.png */; };
+		D41EC22018A222D200402FF0 /* Console2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16E18A222D200402FF0 /* Console2.png */; };
+		D41EC22118A222D200402FF0 /* corner desk2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC16F18A222D200402FF0 /* corner desk2.png */; };
+		D41EC22218A222D200402FF0 /* Corner sofa2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17018A222D200402FF0 /* Corner sofa2.png */; };
+		D41EC22318A222D200402FF0 /* CRT TV2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17118A222D200402FF0 /* CRT TV2.png */; };
+		D41EC22418A222D200402FF0 /* Desk2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17218A222D200402FF0 /* Desk2.png */; };
+		D41EC22518A222D200402FF0 /* Flat screen TV2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17318A222D200402FF0 /* Flat screen TV2.png */; };
+		D41EC22618A222D200402FF0 /* Hutch _Buffet2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17418A222D200402FF0 /* Hutch _Buffet2.png */; };
+		D41EC22718A222D200402FF0 /* Large TV stand2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17518A222D200402FF0 /* Large TV stand2.png */; };
+		D41EC22818A222D200402FF0 /* Lighting2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17618A222D200402FF0 /* Lighting2.png */; };
+		D41EC22918A222D200402FF0 /* Living2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17718A222D200402FF0 /* Living2.png */; };
+		D41EC22A18A222D200402FF0 /* Low cabinet (chest)2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17818A222D200402FF0 /* Low cabinet (chest)2.png */; };
+		D41EC22B18A222D200402FF0 /* Meridienne2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17918A222D200402FF0 /* Meridienne2.png */; };
+		D41EC22C18A222D200402FF0 /* Mirror2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17A18A222D200402FF0 /* Mirror2.png */; };
+		D41EC22D18A222D200402FF0 /* Nesting tables2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17B18A222D200402FF0 /* Nesting tables2.png */; };
+		D41EC22E18A222D200402FF0 /* Office chair2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17C18A222D200402FF0 /* Office chair2.png */; };
+		D41EC22F18A222D200402FF0 /* Pedestal2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17D18A222D200402FF0 /* Pedestal2.png */; };
+		D41EC23018A222D200402FF0 /* Portable air conditioner2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17E18A222D200402FF0 /* Portable air conditioner2.png */; };
+		D41EC23118A222D200402FF0 /* Pouffe2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC17F18A222D200402FF0 /* Pouffe2.png */; };
+		D41EC23218A222D200402FF0 /* Rocking-chair2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18018A222D200402FF0 /* Rocking-chair2.png */; };
+		D41EC23318A222D200402FF0 /* Secretary cabinet2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18118A222D200402FF0 /* Secretary cabinet2.png */; };
+		D41EC23418A222D200402FF0 /* Shelf column2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18218A222D200402FF0 /* Shelf column2.png */; };
+		D41EC23518A222D200402FF0 /* Shelf2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18318A222D200402FF0 /* Shelf2.png */; };
+		D41EC23618A222D200402FF0 /* Small light2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18418A222D200402FF0 /* Small light2.png */; };
+		D41EC23718A222D200402FF0 /* Small shelf2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18518A222D200402FF0 /* Small shelf2.png */; };
+		D41EC23818A222D200402FF0 /* Sofa B-Z2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18618A222D200402FF0 /* Sofa B-Z2.png */; };
+		D41EC23918A222D200402FF0 /* Sofa bed2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18718A222D200402FF0 /* Sofa bed2.png */; };
+		D41EC23A18A222D200402FF0 /* Stair Cabinet2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18818A222D200402FF0 /* Stair Cabinet2.png */; };
+		D41EC23B18A222D200402FF0 /* Stool2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18918A222D200402FF0 /* Stool2.png */; };
+		D41EC23C18A222D200402FF0 /* Table 4_6 people2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18A18A222D200402FF0 /* Table 4_6 people2.png */; };
+		D41EC23D18A222D200402FF0 /* Table_8 people2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18B18A222D200402FF0 /* Table_8 people2.png */; };
+		D41EC23E18A222D200402FF0 /* TV stand down2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18C18A222D200402FF0 /* TV stand down2.png */; };
+		D41EC23F18A222D200402FF0 /* next-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18D18A222D200402FF0 /* next-1.png */; };
+		D41EC24018A222D200402FF0 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC18E18A222D200402FF0 /* next.png */; };
+		D41EC24118A222D200402FF0 /* American Fridge9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19018A222D200402FF0 /* American Fridge9.png */; };
+		D41EC24218A222D200402FF0 /* Grand piano9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19118A222D200402FF0 /* Grand piano9.png */; };
+		D41EC24318A222D200402FF0 /* Motorcycle  scooter9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19218A222D200402FF0 /* Motorcycle  scooter9.png */; };
+		D41EC24418A222D200402FF0 /* Pool table9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19318A222D200402FF0 /* Pool table9.png */; };
+		D41EC24518A222D200402FF0 /* Strongbox9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19418A222D200402FF0 /* Strongbox9.png */; };
+		D41EC24618A222D200402FF0 /* Upright piano9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19518A222D200402FF0 /* Upright piano9.png */; };
+		D41EC24718A222D200402FF0 /* 2 Door Wardrobe (removable)5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19718A222D200402FF0 /* 2 Door Wardrobe (removable)5.png */; };
+		D41EC24818A222D200402FF0 /* 3 Door Wardrobe (removable)5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19818A222D200402FF0 /* 3 Door Wardrobe (removable)5.png */; };
+		D41EC24918A222D200402FF0 /* 4 Door Wardrobe (removable)5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19918A222D200402FF0 /* 4 Door Wardrobe (removable)5.png */; };
+		D41EC24A18A222D200402FF0 /* Antique wardrobe5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19A18A222D200402FF0 /* Antique wardrobe5.png */; };
+		D41EC24B18A222D200402FF0 /* Bedside5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19B18A222D200402FF0 /* Bedside5.png */; };
+		D41EC24C18A222D200402FF0 /* Chest of drawers5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19C18A222D200402FF0 /* Chest of drawers5.png */; };
+		D41EC24D18A222D200402FF0 /* Chiffonier5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19D18A222D200402FF0 /* Chiffonier5.png */; };
+		D41EC24E18A222D200402FF0 /* Coffer5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19E18A222D200402FF0 /* Coffer5.png */; };
+		D41EC24F18A222D200402FF0 /* CRT TV5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC19F18A222D200402FF0 /* CRT TV5.png */; };
+		D41EC25018A222D200402FF0 /* Desk5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A018A222D200402FF0 /* Desk5.png */; };
+		D41EC25118A222D200402FF0 /* Double Bed5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A118A222D200402FF0 /* Double Bed5.png */; };
+		D41EC25218A222D200402FF0 /* Dressing table5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A218A222D200402FF0 /* Dressing table5.png */; };
+		D41EC25318A222D200402FF0 /* Exercise bike5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A318A222D200402FF0 /* Exercise bike5.png */; };
+		D41EC25418A222D200402FF0 /* Flat screen TV5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A418A222D200402FF0 /* Flat screen TV5.png */; };
+		D41EC25518A222D200402FF0 /* Office chair5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A518A222D200402FF0 /* Office chair5.png */; };
+		D41EC25618A222D200402FF0 /* Secretary cabinet5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A618A222D200402FF0 /* Secretary cabinet5.png */; };
+		D41EC25718A222D200402FF0 /* previous-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A718A222D200402FF0 /* previous-1.png */; };
+		D41EC25818A222D200402FF0 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A818A222D200402FF0 /* previous.png */; };
+		D41EC25918A222D200402FF0 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1A918A222D200402FF0 /* remove.png */; };
+		D41EC25A18A222D200402FF0 /* Adult bike8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1AB18A222D200402FF0 /* Adult bike8.png */; };
+		D41EC25B18A222D200402FF0 /* Barbecue8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1AC18A222D200402FF0 /* Barbecue8.png */; };
+		D41EC25C18A222D200402FF0 /* Child bike8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1AD18A222D200402FF0 /* Child bike8.png */; };
+		D41EC25D18A222D200402FF0 /* corner desk8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1AE18A222D200402FF0 /* corner desk8.png */; };
+		D41EC25E18A222D200402FF0 /* Deck chair8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1AF18A222D200402FF0 /* Deck chair8.png */; };
+		D41EC25F18A222D200402FF0 /* Garden table8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B018A222D200402FF0 /* Garden table8.png */; };
+		D41EC26018A222D200402FF0 /* Jardiniere8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B118A222D200402FF0 /* Jardiniere8.png */; };
+		D41EC26118A222D200402FF0 /* Large plant8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B218A222D200402FF0 /* Large plant8.png */; };
+		D41EC26218A222D200402FF0 /* Lawn chair8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B318A222D200402FF0 /* Lawn chair8.png */; };
+		D41EC26318A222D200402FF0 /* Mower8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B418A222D200402FF0 /* Mower8.png */; };
+		D41EC26418A222D200402FF0 /* Shelf column8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B518A222D200402FF0 /* Shelf column8.png */; };
+		D41EC26518A222D200402FF0 /* Slide8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B618A222D200402FF0 /* Slide8.png */; };
+		D41EC26618A222D200402FF0 /* Small plant8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B718A222D200402FF0 /* Small plant8.png */; };
+		D41EC26718A222D200402FF0 /* Stepladder8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B818A222D200402FF0 /* Stepladder8.png */; };
+		D41EC26818A222D200402FF0 /* tooltip.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1B918A222D200402FF0 /* tooltip.png */; };
+		D41EC26918A222D200402FF0 /* truck_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1BA18A222D200402FF0 /* truck_empty.png */; };
+		D41EC26A18A222D200402FF0 /* truck_loaded.png in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1BB18A222D200402FF0 /* truck_loaded.png */; };
+		D41EC26B18A222D200402FF0 /* Updated_french_items.plist in Resources */ = {isa = PBXBuildFile; fileRef = D41EC1BC18A222D200402FF0 /* Updated_french_items.plist */; };
+		D41EC26D18A231DF00402FF0 /* Rooms.plist in Resources */ = {isa = PBXBuildFile; fileRef = D41EC26C18A231DF00402FF0 /* Rooms.plist */; };
+		D41EC27218A240A600402FF0 /* PathFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D41EC27118A240A600402FF0 /* PathFinder.m */; };
+		D41EC27518A24BE400402FF0 /* MDDAddItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D41EC27418A24BE400402FF0 /* MDDAddItemsViewController.m */; };
+		D4232EFA18A5075900780BA8 /* MDDCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4232EF918A5075900780BA8 /* MDDCategoryViewController.m */; };
+		D4232EFD18A5076900780BA8 /* MDDValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4232EFC18A5076900780BA8 /* MDDValidationViewController.m */; };
+		D42C068718BE04790070DDB5 /* MDDHomeCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42C068618BE04790070DDB5 /* MDDHomeCategoryViewController.m */; };
+		D43138E818CADE5600628712 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D43138E718CADE5600628712 /* Reachability.m */; };
+		D43138EA18CB504400628712 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = D43138E918CB504400628712 /* view.png */; };
+		D446873A189F952C001B9FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4468739189F952C001B9FA4 /* Foundation.framework */; };
+		D446873C189F952C001B9FA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D446873B189F952C001B9FA4 /* CoreGraphics.framework */; };
+		D446873E189F952C001B9FA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D446873D189F952C001B9FA4 /* UIKit.framework */; };
+		D4468744189F952C001B9FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4468742189F952C001B9FA4 /* InfoPlist.strings */; };
+		D4468746189F952C001B9FA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4468745189F952C001B9FA4 /* main.m */; };
+		D446874A189F952C001B9FA4 /* MDDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4468749189F952C001B9FA4 /* MDDAppDelegate.m */; };
+		D446874D189F952C001B9FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D446874B189F952C001B9FA4 /* Main.storyboard */; };
+		D4468750189F952C001B9FA4 /* MDDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D446874F189F952C001B9FA4 /* MDDViewController.m */; };
+		D4468752189F952C001B9FA4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4468751189F952C001B9FA4 /* Images.xcassets */; };
+		D4468759189F952C001B9FA4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4468758189F952C001B9FA4 /* XCTest.framework */; };
+		D446875A189F952C001B9FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4468739189F952C001B9FA4 /* Foundation.framework */; };
+		D446875B189F952C001B9FA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D446873D189F952C001B9FA4 /* UIKit.framework */; };
+		D4468763189F952C001B9FA4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4468761189F952C001B9FA4 /* InfoPlist.strings */; };
+		D4468765189F952C001B9FA4 /* Multi_Devis_DemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4468764189F952C001B9FA4 /* Multi_Devis_DemTests.m */; };
+		D4468775189FA623001B9FA4 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468774189FA623001B9FA4 /* app_icon.png */; };
+		D4468778189FA886001B9FA4 /* Splash_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468776189FA885001B9FA4 /* Splash_screen.png */; };
+		D4468779189FA886001B9FA4 /* Splash_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468777189FA885001B9FA4 /* Splash_screen@2x.png */; };
+		D446878B189FBA03001B9FA4 /* category_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468783189FBA03001B9FA4 /* category_new.png */; };
+		D446878D189FBA03001B9FA4 /* help_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468785189FBA03001B9FA4 /* help_new.png */; };
+		D446878F189FBA03001B9FA4 /* quality_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468787189FBA03001B9FA4 /* quality_new.png */; };
+		D4468791189FBA03001B9FA4 /* quote_new.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468789189FBA03001B9FA4 /* quote_new.png */; };
+		D4468793189FC224001B9FA4 /* app_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468792189FC224001B9FA4 /* app_icon@2x.png */; };
+		D4468796189FC47F001B9FA4 /* MDDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4468795189FC47F001B9FA4 /* MDDHomeViewController.m */; };
+		D4468798189FC505001B9FA4 /* status_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D4468797189FC505001B9FA4 /* status_bar.png */; };
+		D44B4D0118E54EB9003EE03D /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CEF18E54EB9003EE03D /* AFHTTPClient.m */; };
+		D44B4D0218E54EB9003EE03D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CF118E54EB9003EE03D /* AFHTTPRequestOperation.m */; };
+		D44B4D0318E54EB9003EE03D /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CF318E54EB9003EE03D /* AFImageRequestOperation.m */; };
+		D44B4D0418E54EB9003EE03D /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CF518E54EB9003EE03D /* AFJSONRequestOperation.m */; };
+		D44B4D0518E54EB9003EE03D /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CF718E54EB9003EE03D /* AFNetworkActivityIndicatorManager.m */; };
+		D44B4D0618E54EB9003EE03D /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CFA18E54EB9003EE03D /* AFPropertyListRequestOperation.m */; };
+		D44B4D0718E54EB9003EE03D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CFC18E54EB9003EE03D /* AFURLConnectionOperation.m */; };
+		D44B4D0818E54EB9003EE03D /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4CFE18E54EB9003EE03D /* AFXMLRequestOperation.m */; };
+		D44B4D0918E54EB9003EE03D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B4D0018E54EB9003EE03D /* UIImageView+AFNetworking.m */; };
+		D4521C4218A0B7AD0038AACE /* calculator-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C3A18A0B7AD0038AACE /* calculator-1.png */; };
+		D4521C4318A0B7AD0038AACE /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C3B18A0B7AD0038AACE /* calculator.png */; };
+		D4521C4418A0B7AD0038AACE /* category-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C3C18A0B7AD0038AACE /* category-1.png */; };
+		D4521C4518A0B7AD0038AACE /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C3D18A0B7AD0038AACE /* category.png */; };
+		D4521C4618A0B7AD0038AACE /* form-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C3E18A0B7AD0038AACE /* form-1.png */; };
+		D4521C4718A0B7AD0038AACE /* form.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C3F18A0B7AD0038AACE /* form.png */; };
+		D4521C4818A0B7AD0038AACE /* validation-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C4018A0B7AD0038AACE /* validation-1.png */; };
+		D4521C4918A0B7AD0038AACE /* validation.png in Resources */ = {isa = PBXBuildFile; fileRef = D4521C4118A0B7AD0038AACE /* validation.png */; };
+		D4521C4C18A0BC6E0038AACE /* MDDFormulaireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4521C4B18A0BC6E0038AACE /* MDDFormulaireViewController.m */; };
+		D4521C4F18A0E6240038AACE /* MDDCustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4521C4E18A0E6240038AACE /* MDDCustomTabBarController.m */; };
+		D49C738C18AB43FF00E0FC87 /* CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D49C738B18AB43FF00E0FC87 /* CustomNavBar.m */; };
+		D4F76D1C18AE276B00B7DE48 /* MDDInventoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F76D1B18AE276B00B7DE48 /* MDDInventoryViewController.m */; };
+		D4FB020C18C9F0BC0067451D /* MDDVueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB020B18C9F0BC0067451D /* MDDVueViewController.m */; };
+		D4FB020F18CA06470067451D /* MDDWebServiceRequestor.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FB020E18CA06470067451D /* MDDWebServiceRequestor.m */; };
+		D4FBE99B18B5FDC800781727 /* CustomerDetails.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FBE99A18B5FDC800781727 /* CustomerDetails.plist */; };
+		D4FC145C18B4652600DA2CC7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FC145B18B4652600DA2CC7 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D446875C189F952C001B9FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D446872E189F952C001B9FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4468735189F952C001B9FA4;
+			remoteInfo = "Multi Devis-Dem";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D402F70A18BF022000108F8D /* info-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info-26.png"; sourceTree = "<group>"; };
+		D40A230718B1ECFF008706E5 /* Tasks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tasks.plist; sourceTree = "<group>"; };
+		D40A230A18B1F259008706E5 /* check_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_box.png; sourceTree = "<group>"; };
+		D40A230B18B1F259008706E5 /* check_box_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_box_empty.png; sourceTree = "<group>"; };
+		D40A230C18B1F259008706E5 /* checked_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked_box.png; sourceTree = "<group>"; };
+		D40A230D18B1F259008706E5 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		D40A230E18B1F259008706E5 /* Class Comfort_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class Comfort_1.png"; sourceTree = "<group>"; };
+		D40A230F18B1F259008706E5 /* Class Economic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class Economic_1.png"; sourceTree = "<group>"; };
+		D40A231018B1F259008706E5 /* Class Standard_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Class Standard_1.png"; sourceTree = "<group>"; };
+		D40A231118B1F259008706E5 /* class_comfort-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_comfort-3.png"; sourceTree = "<group>"; };
+		D40A231218B1F259008706E5 /* class_economic-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_economic-3.png"; sourceTree = "<group>"; };
+		D40A231318B1F259008706E5 /* class_standard-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class_standard-3.png"; sourceTree = "<group>"; };
+		D40A231418B1F259008706E5 /* close_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_icon.png; sourceTree = "<group>"; };
+		D40A231518B1F259008706E5 /* Confort_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Confort_fr.html; sourceTree = "<group>"; };
+		D40A231618B1F259008706E5 /* Economique_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Economique_fr.html; sourceTree = "<group>"; };
+		D40A231718B1F259008706E5 /* empty_check_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty_check_box.png; sourceTree = "<group>"; };
+		D40A231818B1F259008706E5 /* FrenchCategories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FrenchCategories.plist; sourceTree = "<group>"; };
+		D40A231918B1F259008706E5 /* line-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line-1.png"; sourceTree = "<group>"; };
+		D40A231A18B1F259008706E5 /* main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		D40A231B18B1F259008706E5 /* Standard_fr.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Standard_fr.html; sourceTree = "<group>"; };
+		D418AFDE18B3155A00D5CFBF /* PackageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageViewController.h; sourceTree = "<group>"; };
+		D418AFDF18B3155A00D5CFBF /* PackageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageViewController.m; sourceTree = "<group>"; };
+		D418AFE118B3218200D5CFBF /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		D418AFE518B38DD300D5CFBF /* SQLiteDbController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDbController.h; sourceTree = "<group>"; };
+		D418AFE618B38DD300D5CFBF /* SQLiteDbController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteDbController.m; sourceTree = "<group>"; };
+		D41EC0FE18A1F13B00402FF0 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		D41EC0FF18A1F13B00402FF0 /* orange_strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange_strip.png; sourceTree = "<group>"; };
+		D41EC10218A2124400402FF0 /* MDDAddRoomsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDAddRoomsViewController.h; sourceTree = "<group>"; };
+		D41EC10318A2124400402FF0 /* MDDAddRoomsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDAddRoomsViewController.m; sourceTree = "<group>"; };
+		D41EC10618A222D200402FF0 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		D41EC10818A222D200402FF0 /* Cardboard books3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardboard books3.png"; sourceTree = "<group>"; };
+		D41EC10918A222D200402FF0 /* Carton stand3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carton stand3.png"; sourceTree = "<group>"; };
+		D41EC10A18A222D200402FF0 /* Changing Table3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Changing Table3.png"; sourceTree = "<group>"; };
+		D41EC10B18A222D200402FF0 /* Clothes basket3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Clothes basket3.png"; sourceTree = "<group>"; };
+		D41EC10C18A222D200402FF0 /* Column furniture3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Column furniture3.png"; sourceTree = "<group>"; };
+		D41EC10D18A222D200402FF0 /* Dryer Laundry3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dryer Laundry3.png"; sourceTree = "<group>"; };
+		D41EC10E18A222D200402FF0 /* High cabinet3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High cabinet3.png"; sourceTree = "<group>"; };
+		D41EC10F18A222D200402FF0 /* Medicine cabinet3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medicine cabinet3.png"; sourceTree = "<group>"; };
+		D41EC11018A222D200402FF0 /* Mirror3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirror3.png; sourceTree = "<group>"; };
+		D41EC11118A222D200402FF0 /* washing machine3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "washing machine3.png"; sourceTree = "<group>"; };
+		D41EC11218A222D200402FF0 /* Washstand3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Washstand3.png; sourceTree = "<group>"; };
+		D41EC11318A222D200402FF0 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		D41EC11518A222D200402FF0 /* 1 Door Wardrobe6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 Door Wardrobe6.png"; sourceTree = "<group>"; };
+		D41EC11618A222D200402FF0 /* 2 Door Wardrobe (removable)6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 Door Wardrobe (removable)6.png"; sourceTree = "<group>"; };
+		D41EC11718A222D200402FF0 /* 3 Door Wardrobe (removable)6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 Door Wardrobe (removable)6.png"; sourceTree = "<group>"; };
+		D41EC11818A222D200402FF0 /* 4 Door Wardrobe (removable)6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 Door Wardrobe (removable)6.png"; sourceTree = "<group>"; };
+		D41EC11918A222D200402FF0 /* Antique wardrobe6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Antique wardrobe6.png"; sourceTree = "<group>"; };
+		D41EC11A18A222D200402FF0 /* Cardboard Books6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardboard Books6.png"; sourceTree = "<group>"; };
+		D41EC11B18A222D200402FF0 /* Carpet6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carpet6.png; sourceTree = "<group>"; };
+		D41EC11C18A222D200402FF0 /* Carton stand6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carton stand6.png"; sourceTree = "<group>"; };
+		D41EC11D18A222D200402FF0 /* Changing Table6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Changing Table6.png"; sourceTree = "<group>"; };
+		D41EC11E18A222D200402FF0 /* Chest of drawers6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chest of drawers6.png"; sourceTree = "<group>"; };
+		D41EC11F18A222D200402FF0 /* Coffer6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coffer6.png; sourceTree = "<group>"; };
+		D41EC12018A222D200402FF0 /* Crib6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Crib6.png; sourceTree = "<group>"; };
+		D41EC12118A222D200402FF0 /* CRT TV6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRT TV6.png"; sourceTree = "<group>"; };
+		D41EC12218A222D200402FF0 /* desk with back6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "desk with back6.png"; sourceTree = "<group>"; };
+		D41EC12318A222D200402FF0 /* Desk6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desk6.png; sourceTree = "<group>"; };
+		D41EC12418A222D200402FF0 /* Double bed6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double bed6.png"; sourceTree = "<group>"; };
+		D41EC12518A222D200402FF0 /* Exercise bike6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exercise bike6.png"; sourceTree = "<group>"; };
+		D41EC12618A222D200402FF0 /* Flat screen TV6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flat screen TV6.png"; sourceTree = "<group>"; };
+		D41EC12718A222D200402FF0 /* large toy6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "large toy6.png"; sourceTree = "<group>"; };
+		D41EC12818A222D200402FF0 /* Lighting6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lighting6.png; sourceTree = "<group>"; };
+		D41EC12918A222D200402FF0 /* Loft beds6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loft beds6.png"; sourceTree = "<group>"; };
+		D41EC12A18A222D200402FF0 /* Mirror6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirror6.png; sourceTree = "<group>"; };
+		D41EC12B18A222D200402FF0 /* Office chair6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Office chair6.png"; sourceTree = "<group>"; };
+		D41EC12C18A222D200402FF0 /* Shelf6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shelf6.png; sourceTree = "<group>"; };
+		D41EC12D18A222D200402FF0 /* Single bed6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Single bed6.png"; sourceTree = "<group>"; };
+		D41EC12E18A222D200402FF0 /* Smal shelf6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smal shelf6.png"; sourceTree = "<group>"; };
+		D41EC12F18A222D200402FF0 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		D41EC13018A222D200402FF0 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		D41EC13118A222D200402FF0 /* Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ding.wav; sourceTree = "<group>"; };
+		D41EC13318A222D200402FF0 /* app Icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app Icon_iPhone.png"; sourceTree = "<group>"; };
+		D41EC13418A222D200402FF0 /* cardboard books1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardboard books1.png"; sourceTree = "<group>"; };
+		D41EC13518A222D200402FF0 /* Carpet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carpet1.png; sourceTree = "<group>"; };
+		D41EC13618A222D200402FF0 /* Carton stand1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carton stand1.png"; sourceTree = "<group>"; };
+		D41EC13718A222D200402FF0 /* Casual furniture (dresser)1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Casual furniture (dresser)1.png"; sourceTree = "<group>"; };
+		D41EC13818A222D200402FF0 /* Coat racks1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coat racks1.png"; sourceTree = "<group>"; };
+		D41EC13918A222D200402FF0 /* Column furniture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Column furniture1.png"; sourceTree = "<group>"; };
+		D41EC13A18A222D200402FF0 /* Console1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Console1.png; sourceTree = "<group>"; };
+		D41EC13B18A222D200402FF0 /* Lighting1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lighting1.png; sourceTree = "<group>"; };
+		D41EC13C18A222D200402FF0 /* Low cabinet (chest)1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Low cabinet (chest)1.png"; sourceTree = "<group>"; };
+		D41EC13D18A222D200402FF0 /* Mirror1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirror1.png; sourceTree = "<group>"; };
+		D41EC13E18A222D200402FF0 /* Shelf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shelf1.png; sourceTree = "<group>"; };
+		D41EC13F18A222D200402FF0 /* Shoe cabinet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shoe cabinet1.png"; sourceTree = "<group>"; };
+		D41EC14018A222D200402FF0 /* Small auxiliary cabinet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small auxiliary cabinet1.png"; sourceTree = "<group>"; };
+		D41EC14118A222D200402FF0 /* Small shelf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small shelf1.png"; sourceTree = "<group>"; };
+		D41EC14418A222D200402FF0 /* Bench4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bench4.png; sourceTree = "<group>"; };
+		D41EC14518A222D200402FF0 /* Bistro table4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bistro table4.png"; sourceTree = "<group>"; };
+		D41EC14618A222D200402FF0 /* Built-in oven4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Built-in oven4.png"; sourceTree = "<group>"; };
+		D41EC14718A222D200402FF0 /* Cardboard books4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardboard books4.png"; sourceTree = "<group>"; };
+		D41EC14818A222D200402FF0 /* Carton stand4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carton stand4.png"; sourceTree = "<group>"; };
+		D41EC14918A222D200402FF0 /* Chair4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chair4.png; sourceTree = "<group>"; };
+		D41EC14A18A222D200402FF0 /* Column furniture4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Column furniture4.png"; sourceTree = "<group>"; };
+		D41EC14B18A222D200402FF0 /* cooker hood4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cooker hood4.png"; sourceTree = "<group>"; };
+		D41EC14C18A222D200402FF0 /* Cooker4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cooker4.png; sourceTree = "<group>"; };
+		D41EC14D18A222D200402FF0 /* dishwasher4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dishwasher4.png; sourceTree = "<group>"; };
+		D41EC14E18A222D200402FF0 /* Dryer Laundry4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dryer Laundry4.png"; sourceTree = "<group>"; };
+		D41EC14F18A222D200402FF0 /* Folding chair4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folding chair4.png"; sourceTree = "<group>"; };
+		D41EC15018A222D200402FF0 /* Folding table4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folding table4.png"; sourceTree = "<group>"; };
+		D41EC15118A222D200402FF0 /* Freezer4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Freezer4.png; sourceTree = "<group>"; };
+		D41EC15218A222D200402FF0 /* Fridge4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fridge4.png; sourceTree = "<group>"; };
+		D41EC15318A222D200402FF0 /* Garbage can4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Garbage can4.png"; sourceTree = "<group>"; };
+		D41EC15418A222D200402FF0 /* Gas Hob4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gas Hob4.png"; sourceTree = "<group>"; };
+		D41EC15518A222D200402FF0 /* High cabinet 80cm4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "High cabinet 80cm4.png"; sourceTree = "<group>"; };
+		D41EC15618A222D200402FF0 /* Highchair4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Highchair4.png; sourceTree = "<group>"; };
+		D41EC15718A222D200402FF0 /* Low cabinet 60cm4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Low cabinet 60cm4.png"; sourceTree = "<group>"; };
+		D41EC15818A222D200402FF0 /* Low cabinet 80cm4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Low cabinet 80cm4.png"; sourceTree = "<group>"; };
+		D41EC15918A222D200402FF0 /* Microwave4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microwave4.png; sourceTree = "<group>"; };
+		D41EC15A18A222D200402FF0 /* Sideboard buffet4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sideboard buffet4.png"; sourceTree = "<group>"; };
+		D41EC15B18A222D200402FF0 /* Stool4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stool4.png; sourceTree = "<group>"; };
+		D41EC15C18A222D200402FF0 /* Table 4_6 people4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table 4_6 people4.png"; sourceTree = "<group>"; };
+		D41EC15D18A222D200402FF0 /* Top Fridge4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Top Fridge4.png"; sourceTree = "<group>"; };
+		D41EC15E18A222D200402FF0 /* Washer4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Washer4.png; sourceTree = "<group>"; };
+		D41EC16018A222D200402FF0 /* 2 seater sofa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 seater sofa2.png"; sourceTree = "<group>"; };
+		D41EC16118A222D200402FF0 /* 3 seater sofa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 seater sofa2.png"; sourceTree = "<group>"; };
+		D41EC16218A222D200402FF0 /* Antique cabinet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Antique cabinet2.png"; sourceTree = "<group>"; };
+		D41EC16318A222D200402FF0 /* Armchair2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Armchair2.png; sourceTree = "<group>"; };
+		D41EC16418A222D200402FF0 /* Bench2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bench2.png; sourceTree = "<group>"; };
+		D41EC16518A222D200402FF0 /* Cardboard books2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cardboard books2.png"; sourceTree = "<group>"; };
+		D41EC16618A222D200402FF0 /* Carpet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carpet2.png; sourceTree = "<group>"; };
+		D41EC16718A222D200402FF0 /* Carton stand2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Carton stand2.png"; sourceTree = "<group>"; };
+		D41EC16818A222D200402FF0 /* CD Column2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CD Column2.png"; sourceTree = "<group>"; };
+		D41EC16918A222D200402FF0 /* Chair2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chair2.png; sourceTree = "<group>"; };
+		D41EC16A18A222D200402FF0 /* Chandelier2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chandelier2.png; sourceTree = "<group>"; };
+		D41EC16B18A222D200402FF0 /* Club Chair2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Club Chair2.png"; sourceTree = "<group>"; };
+		D41EC16C18A222D200402FF0 /* Coat racks2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coat racks2.png"; sourceTree = "<group>"; };
+		D41EC16D18A222D200402FF0 /* Coffee table2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coffee table2.png"; sourceTree = "<group>"; };
+		D41EC16E18A222D200402FF0 /* Console2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Console2.png; sourceTree = "<group>"; };
+		D41EC16F18A222D200402FF0 /* corner desk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corner desk2.png"; sourceTree = "<group>"; };
+		D41EC17018A222D200402FF0 /* Corner sofa2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Corner sofa2.png"; sourceTree = "<group>"; };
+		D41EC17118A222D200402FF0 /* CRT TV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRT TV2.png"; sourceTree = "<group>"; };
+		D41EC17218A222D200402FF0 /* Desk2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desk2.png; sourceTree = "<group>"; };
+		D41EC17318A222D200402FF0 /* Flat screen TV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flat screen TV2.png"; sourceTree = "<group>"; };
+		D41EC17418A222D200402FF0 /* Hutch _Buffet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hutch _Buffet2.png"; sourceTree = "<group>"; };
+		D41EC17518A222D200402FF0 /* Large TV stand2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Large TV stand2.png"; sourceTree = "<group>"; };
+		D41EC17618A222D200402FF0 /* Lighting2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lighting2.png; sourceTree = "<group>"; };
+		D41EC17718A222D200402FF0 /* Living2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Living2.png; sourceTree = "<group>"; };
+		D41EC17818A222D200402FF0 /* Low cabinet (chest)2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Low cabinet (chest)2.png"; sourceTree = "<group>"; };
+		D41EC17918A222D200402FF0 /* Meridienne2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Meridienne2.png; sourceTree = "<group>"; };
+		D41EC17A18A222D200402FF0 /* Mirror2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mirror2.png; sourceTree = "<group>"; };
+		D41EC17B18A222D200402FF0 /* Nesting tables2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nesting tables2.png"; sourceTree = "<group>"; };
+		D41EC17C18A222D200402FF0 /* Office chair2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Office chair2.png"; sourceTree = "<group>"; };
+		D41EC17D18A222D200402FF0 /* Pedestal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pedestal2.png; sourceTree = "<group>"; };
+		D41EC17E18A222D200402FF0 /* Portable air conditioner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Portable air conditioner2.png"; sourceTree = "<group>"; };
+		D41EC17F18A222D200402FF0 /* Pouffe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pouffe2.png; sourceTree = "<group>"; };
+		D41EC18018A222D200402FF0 /* Rocking-chair2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rocking-chair2.png"; sourceTree = "<group>"; };
+		D41EC18118A222D200402FF0 /* Secretary cabinet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Secretary cabinet2.png"; sourceTree = "<group>"; };
+		D41EC18218A222D200402FF0 /* Shelf column2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shelf column2.png"; sourceTree = "<group>"; };
+		D41EC18318A222D200402FF0 /* Shelf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shelf2.png; sourceTree = "<group>"; };
+		D41EC18418A222D200402FF0 /* Small light2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small light2.png"; sourceTree = "<group>"; };
+		D41EC18518A222D200402FF0 /* Small shelf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small shelf2.png"; sourceTree = "<group>"; };
+		D41EC18618A222D200402FF0 /* Sofa B-Z2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sofa B-Z2.png"; sourceTree = "<group>"; };
+		D41EC18718A222D200402FF0 /* Sofa bed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sofa bed2.png"; sourceTree = "<group>"; };
+		D41EC18818A222D200402FF0 /* Stair Cabinet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stair Cabinet2.png"; sourceTree = "<group>"; };
+		D41EC18918A222D200402FF0 /* Stool2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stool2.png; sourceTree = "<group>"; };
+		D41EC18A18A222D200402FF0 /* Table 4_6 people2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table 4_6 people2.png"; sourceTree = "<group>"; };
+		D41EC18B18A222D200402FF0 /* Table_8 people2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Table_8 people2.png"; sourceTree = "<group>"; };
+		D41EC18C18A222D200402FF0 /* TV stand down2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TV stand down2.png"; sourceTree = "<group>"; };
+		D41EC18D18A222D200402FF0 /* next-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "next-1.png"; sourceTree = "<group>"; };
+		D41EC18E18A222D200402FF0 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		D41EC19018A222D200402FF0 /* American Fridge9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "American Fridge9.png"; sourceTree = "<group>"; };
+		D41EC19118A222D200402FF0 /* Grand piano9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grand piano9.png"; sourceTree = "<group>"; };
+		D41EC19218A222D200402FF0 /* Motorcycle  scooter9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Motorcycle  scooter9.png"; sourceTree = "<group>"; };
+		D41EC19318A222D200402FF0 /* Pool table9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pool table9.png"; sourceTree = "<group>"; };
+		D41EC19418A222D200402FF0 /* Strongbox9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strongbox9.png; sourceTree = "<group>"; };
+		D41EC19518A222D200402FF0 /* Upright piano9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Upright piano9.png"; sourceTree = "<group>"; };
+		D41EC19718A222D200402FF0 /* 2 Door Wardrobe (removable)5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 Door Wardrobe (removable)5.png"; sourceTree = "<group>"; };
+		D41EC19818A222D200402FF0 /* 3 Door Wardrobe (removable)5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 Door Wardrobe (removable)5.png"; sourceTree = "<group>"; };
+		D41EC19918A222D200402FF0 /* 4 Door Wardrobe (removable)5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 Door Wardrobe (removable)5.png"; sourceTree = "<group>"; };
+		D41EC19A18A222D200402FF0 /* Antique wardrobe5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Antique wardrobe5.png"; sourceTree = "<group>"; };
+		D41EC19B18A222D200402FF0 /* Bedside5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bedside5.png; sourceTree = "<group>"; };
+		D41EC19C18A222D200402FF0 /* Chest of drawers5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chest of drawers5.png"; sourceTree = "<group>"; };
+		D41EC19D18A222D200402FF0 /* Chiffonier5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chiffonier5.png; sourceTree = "<group>"; };
+		D41EC19E18A222D200402FF0 /* Coffer5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coffer5.png; sourceTree = "<group>"; };
+		D41EC19F18A222D200402FF0 /* CRT TV5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CRT TV5.png"; sourceTree = "<group>"; };
+		D41EC1A018A222D200402FF0 /* Desk5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Desk5.png; sourceTree = "<group>"; };
+		D41EC1A118A222D200402FF0 /* Double Bed5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double Bed5.png"; sourceTree = "<group>"; };
+		D41EC1A218A222D200402FF0 /* Dressing table5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dressing table5.png"; sourceTree = "<group>"; };
+		D41EC1A318A222D200402FF0 /* Exercise bike5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Exercise bike5.png"; sourceTree = "<group>"; };
+		D41EC1A418A222D200402FF0 /* Flat screen TV5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Flat screen TV5.png"; sourceTree = "<group>"; };
+		D41EC1A518A222D200402FF0 /* Office chair5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Office chair5.png"; sourceTree = "<group>"; };
+		D41EC1A618A222D200402FF0 /* Secretary cabinet5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Secretary cabinet5.png"; sourceTree = "<group>"; };
+		D41EC1A718A222D200402FF0 /* previous-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "previous-1.png"; sourceTree = "<group>"; };
+		D41EC1A818A222D200402FF0 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
+		D41EC1A918A222D200402FF0 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+		D41EC1AB18A222D200402FF0 /* Adult bike8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Adult bike8.png"; sourceTree = "<group>"; };
+		D41EC1AC18A222D200402FF0 /* Barbecue8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbecue8.png; sourceTree = "<group>"; };
+		D41EC1AD18A222D200402FF0 /* Child bike8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Child bike8.png"; sourceTree = "<group>"; };
+		D41EC1AE18A222D200402FF0 /* corner desk8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "corner desk8.png"; sourceTree = "<group>"; };
+		D41EC1AF18A222D200402FF0 /* Deck chair8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Deck chair8.png"; sourceTree = "<group>"; };
+		D41EC1B018A222D200402FF0 /* Garden table8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Garden table8.png"; sourceTree = "<group>"; };
+		D41EC1B118A222D200402FF0 /* Jardiniere8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jardiniere8.png; sourceTree = "<group>"; };
+		D41EC1B218A222D200402FF0 /* Large plant8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Large plant8.png"; sourceTree = "<group>"; };
+		D41EC1B318A222D200402FF0 /* Lawn chair8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lawn chair8.png"; sourceTree = "<group>"; };
+		D41EC1B418A222D200402FF0 /* Mower8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mower8.png; sourceTree = "<group>"; };
+		D41EC1B518A222D200402FF0 /* Shelf column8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shelf column8.png"; sourceTree = "<group>"; };
+		D41EC1B618A222D200402FF0 /* Slide8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slide8.png; sourceTree = "<group>"; };
+		D41EC1B718A222D200402FF0 /* Small plant8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Small plant8.png"; sourceTree = "<group>"; };
+		D41EC1B818A222D200402FF0 /* Stepladder8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stepladder8.png; sourceTree = "<group>"; };
+		D41EC1B918A222D200402FF0 /* tooltip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooltip.png; sourceTree = "<group>"; };
+		D41EC1BA18A222D200402FF0 /* truck_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck_empty.png; sourceTree = "<group>"; };
+		D41EC1BB18A222D200402FF0 /* truck_loaded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck_loaded.png; sourceTree = "<group>"; };
+		D41EC1BC18A222D200402FF0 /* Updated_french_items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Updated_french_items.plist; sourceTree = "<group>"; };
+		D41EC26C18A231DF00402FF0 /* Rooms.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Rooms.plist; sourceTree = "<group>"; };
+		D41EC27018A240A600402FF0 /* PathFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathFinder.h; sourceTree = "<group>"; };
+		D41EC27118A240A600402FF0 /* PathFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathFinder.m; sourceTree = "<group>"; };
+		D41EC27318A24BE400402FF0 /* MDDAddItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDAddItemsViewController.h; sourceTree = "<group>"; };
+		D41EC27418A24BE400402FF0 /* MDDAddItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDAddItemsViewController.m; sourceTree = "<group>"; };
+		D4232EF818A5075900780BA8 /* MDDCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDCategoryViewController.h; sourceTree = "<group>"; };
+		D4232EF918A5075900780BA8 /* MDDCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDCategoryViewController.m; sourceTree = "<group>"; };
+		D4232EFB18A5076900780BA8 /* MDDValidationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDValidationViewController.h; sourceTree = "<group>"; };
+		D4232EFC18A5076900780BA8 /* MDDValidationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDValidationViewController.m; sourceTree = "<group>"; };
+		D42C068518BE04790070DDB5 /* MDDHomeCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDHomeCategoryViewController.h; sourceTree = "<group>"; };
+		D42C068618BE04790070DDB5 /* MDDHomeCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDHomeCategoryViewController.m; sourceTree = "<group>"; };
+		D43138E618CADE5600628712 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D43138E718CADE5600628712 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D43138E918CB504400628712 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		D4468736189F952C001B9FA4 /* Multi Devis-Dem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multi Devis-Dem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4468739189F952C001B9FA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D446873B189F952C001B9FA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D446873D189F952C001B9FA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4468741189F952C001B9FA4 /* Multi Devis-Dem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi Devis-Dem-Info.plist"; sourceTree = "<group>"; };
+		D4468743189F952C001B9FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4468745189F952C001B9FA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4468747189F952C001B9FA4 /* Multi Devis-Dem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Multi Devis-Dem-Prefix.pch"; sourceTree = "<group>"; };
+		D4468748189F952C001B9FA4 /* MDDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDAppDelegate.h; sourceTree = "<group>"; };
+		D4468749189F952C001B9FA4 /* MDDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDAppDelegate.m; sourceTree = "<group>"; };
+		D446874C189F952C001B9FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D446874E189F952C001B9FA4 /* MDDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDDViewController.h; sourceTree = "<group>"; };
+		D446874F189F952C001B9FA4 /* MDDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDDViewController.m; sourceTree = "<group>"; };
+		D4468751189F952C001B9FA4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4468757189F952C001B9FA4 /* Multi Devis-DemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multi Devis-DemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4468758189F952C001B9FA4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4468760189F952C001B9FA4 /* Multi Devis-DemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi Devis-DemTests-Info.plist"; sourceTree = "<group>"; };
+		D4468762189F952C001B9FA4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4468764189F952C001B9FA4 /* Multi_Devis_DemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multi_Devis_DemTests.m; sourceTree = "<group>"; };
+		D4468774189FA623001B9FA4 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		D4468776189FA885001B9FA4 /* Splash_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash_screen.png; sourceTree = "<group>"; };
+		D4468777189FA885001B9FA4 /* Splash_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Splash_screen@2x.png"; sourceTree = "<group>"; };
+		D4468783189FBA03001B9FA4 /* category_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category_new.png; sourceTree = "<group>"; };
+		D4468785189FBA03001B9FA4 /* help_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_new.png; sourceTree = "<group>"; };
+		D4468787189FBA03001B9FA4 /* quality_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quality_new.png; sourceTree = "<group>"; };
+		D4468789189FBA03001B9FA4 /* quote_new.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quote_new.png; sourceTree = "<group>"; };
+		D4468792189FC224001B9FA4 /* app_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app_icon@2x.png"; path = "Menu/app_icon@2x.png"; sourceTree = "<group>"; };
+		D4468794189FC47F001B9FA4 /* MDDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDHomeViewController.h; sourceTree = "<group>"; };
+		D4468795189FC47F001B9FA4 /* MDDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDHomeViewController.m; sourceTree = "<group>"; };
+		D4468797189FC505001B9FA4 /* status_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status_bar.png; sourceTree = "<group>"; };
+		D44B4CEE18E54EB9003EE03D /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		D44B4CEF18E54EB9003EE03D /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		D44B4CF018E54EB9003EE03D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		D44B4CF118E54EB9003EE03D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		D44B4CF218E54EB9003EE03D /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		D44B4CF318E54EB9003EE03D /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		D44B4CF418E54EB9003EE03D /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		D44B4CF518E54EB9003EE03D /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		D44B4CF618E54EB9003EE03D /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		D44B4CF718E54EB9003EE03D /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		D44B4CF818E54EB9003EE03D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D44B4CF918E54EB9003EE03D /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		D44B4CFA18E54EB9003EE03D /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		D44B4CFB18E54EB9003EE03D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		D44B4CFC18E54EB9003EE03D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		D44B4CFD18E54EB9003EE03D /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		D44B4CFE18E54EB9003EE03D /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		D44B4CFF18E54EB9003EE03D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		D44B4D0018E54EB9003EE03D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		D4521C3A18A0B7AD0038AACE /* calculator-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-1.png"; sourceTree = "<group>"; };
+		D4521C3B18A0B7AD0038AACE /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
+		D4521C3C18A0B7AD0038AACE /* category-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category-1.png"; sourceTree = "<group>"; };
+		D4521C3D18A0B7AD0038AACE /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
+		D4521C3E18A0B7AD0038AACE /* form-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "form-1.png"; sourceTree = "<group>"; };
+		D4521C3F18A0B7AD0038AACE /* form.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = form.png; sourceTree = "<group>"; };
+		D4521C4018A0B7AD0038AACE /* validation-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "validation-1.png"; sourceTree = "<group>"; };
+		D4521C4118A0B7AD0038AACE /* validation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = validation.png; sourceTree = "<group>"; };
+		D4521C4A18A0BC6E0038AACE /* MDDFormulaireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDFormulaireViewController.h; sourceTree = "<group>"; };
+		D4521C4B18A0BC6E0038AACE /* MDDFormulaireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDFormulaireViewController.m; sourceTree = "<group>"; };
+		D4521C4D18A0E6240038AACE /* MDDCustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDCustomTabBarController.h; sourceTree = "<group>"; };
+		D4521C4E18A0E6240038AACE /* MDDCustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDCustomTabBarController.m; sourceTree = "<group>"; };
+		D49C738A18AB43FF00E0FC87 /* CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBar.h; sourceTree = "<group>"; };
+		D49C738B18AB43FF00E0FC87 /* CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBar.m; sourceTree = "<group>"; };
+		D4F76D1A18AE276B00B7DE48 /* MDDInventoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDInventoryViewController.h; sourceTree = "<group>"; };
+		D4F76D1B18AE276B00B7DE48 /* MDDInventoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDInventoryViewController.m; sourceTree = "<group>"; };
+		D4FB020A18C9F0BC0067451D /* MDDVueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDVueViewController.h; sourceTree = "<group>"; };
+		D4FB020B18C9F0BC0067451D /* MDDVueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDVueViewController.m; sourceTree = "<group>"; };
+		D4FB020D18CA06470067451D /* MDDWebServiceRequestor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDWebServiceRequestor.h; sourceTree = "<group>"; };
+		D4FB020E18CA06470067451D /* MDDWebServiceRequestor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDWebServiceRequestor.m; sourceTree = "<group>"; };
+		D4FBE99A18B5FDC800781727 /* CustomerDetails.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CustomerDetails.plist; sourceTree = "<group>"; };
+		D4FC145B18B4652600DA2CC7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4468733189F952C001B9FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4FC145C18B4652600DA2CC7 /* libsqlite3.0.dylib in Frameworks */,
+				D446873C189F952C001B9FA4 /* CoreGraphics.framework in Frameworks */,
+				D446873E189F952C001B9FA4 /* UIKit.framework in Frameworks */,
+				D446873A189F952C001B9FA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4468754189F952C001B9FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4468759189F952C001B9FA4 /* XCTest.framework in Frameworks */,
+				D446875B189F952C001B9FA4 /* UIKit.framework in Frameworks */,
+				D446875A189F952C001B9FA4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40A230918B1F259008706E5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D40A230A18B1F259008706E5 /* check_box.png */,
+				D40A230B18B1F259008706E5 /* check_box_empty.png */,
+				D40A230C18B1F259008706E5 /* checked_box.png */,
+				D40A230D18B1F259008706E5 /* checkmark.png */,
+				D40A230E18B1F259008706E5 /* Class Comfort_1.png */,
+				D40A230F18B1F259008706E5 /* Class Economic_1.png */,
+				D40A231018B1F259008706E5 /* Class Standard_1.png */,
+				D40A231118B1F259008706E5 /* class_comfort-3.png */,
+				D40A231218B1F259008706E5 /* class_economic-3.png */,
+				D40A231318B1F259008706E5 /* class_standard-3.png */,
+				D40A231418B1F259008706E5 /* close_icon.png */,
+				D40A231518B1F259008706E5 /* Confort_fr.html */,
+				D40A231618B1F259008706E5 /* Economique_fr.html */,
+				D40A231718B1F259008706E5 /* empty_check_box.png */,
+				D40A231818B1F259008706E5 /* FrenchCategories.plist */,
+				D40A231918B1F259008706E5 /* line-1.png */,
+				D40A231A18B1F259008706E5 /* main.css */,
+				D40A231B18B1F259008706E5 /* Standard_fr.html */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D41EC10518A222D200402FF0 /* Volume calculator */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC10618A222D200402FF0 /* add.png */,
+				D41EC10718A222D200402FF0 /* bathroom */,
+				D41EC11318A222D200402FF0 /* camera.png */,
+				D41EC11418A222D200402FF0 /* Chambre */,
+				D41EC12F18A222D200402FF0 /* close.png */,
+				D41EC13018A222D200402FF0 /* delete.png */,
+				D41EC13118A222D200402FF0 /* Ding.wav */,
+				D41EC13218A222D200402FF0 /* Entree */,
+				D41EC14318A222D200402FF0 /* kitchen */,
+				D41EC15F18A222D200402FF0 /* living room */,
+				D41EC18D18A222D200402FF0 /* next-1.png */,
+				D41EC18E18A222D200402FF0 /* next.png */,
+				D41EC18F18A222D200402FF0 /* object specifics */,
+				D41EC19618A222D200402FF0 /* parents room */,
+				D41EC1A718A222D200402FF0 /* previous-1.png */,
+				D41EC1A818A222D200402FF0 /* previous.png */,
+				D41EC1A918A222D200402FF0 /* remove.png */,
+				D41EC1AA18A222D200402FF0 /* terrace_garden */,
+				D41EC1B918A222D200402FF0 /* tooltip.png */,
+				D41EC1BA18A222D200402FF0 /* truck_empty.png */,
+				D41EC1BB18A222D200402FF0 /* truck_loaded.png */,
+				D41EC1BC18A222D200402FF0 /* Updated_french_items.plist */,
+			);
+			path = "Volume calculator";
+			sourceTree = "<group>";
+		};
+		D41EC10718A222D200402FF0 /* bathroom */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC10818A222D200402FF0 /* Cardboard books3.png */,
+				D41EC10918A222D200402FF0 /* Carton stand3.png */,
+				D41EC10A18A222D200402FF0 /* Changing Table3.png */,
+				D41EC10B18A222D200402FF0 /* Clothes basket3.png */,
+				D41EC10C18A222D200402FF0 /* Column furniture3.png */,
+				D41EC10D18A222D200402FF0 /* Dryer Laundry3.png */,
+				D41EC10E18A222D200402FF0 /* High cabinet3.png */,
+				D41EC10F18A222D200402FF0 /* Medicine cabinet3.png */,
+				D41EC11018A222D200402FF0 /* Mirror3.png */,
+				D41EC11118A222D200402FF0 /* washing machine3.png */,
+				D41EC11218A222D200402FF0 /* Washstand3.png */,
+			);
+			path = bathroom;
+			sourceTree = "<group>";
+		};
+		D41EC11418A222D200402FF0 /* Chambre */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC11518A222D200402FF0 /* 1 Door Wardrobe6.png */,
+				D41EC11618A222D200402FF0 /* 2 Door Wardrobe (removable)6.png */,
+				D41EC11718A222D200402FF0 /* 3 Door Wardrobe (removable)6.png */,
+				D41EC11818A222D200402FF0 /* 4 Door Wardrobe (removable)6.png */,
+				D41EC11918A222D200402FF0 /* Antique wardrobe6.png */,
+				D41EC11A18A222D200402FF0 /* Cardboard Books6.png */,
+				D41EC11B18A222D200402FF0 /* Carpet6.png */,
+				D41EC11C18A222D200402FF0 /* Carton stand6.png */,
+				D41EC11D18A222D200402FF0 /* Changing Table6.png */,
+				D41EC11E18A222D200402FF0 /* Chest of drawers6.png */,
+				D41EC11F18A222D200402FF0 /* Coffer6.png */,
+				D41EC12018A222D200402FF0 /* Crib6.png */,
+				D41EC12118A222D200402FF0 /* CRT TV6.png */,
+				D41EC12218A222D200402FF0 /* desk with back6.png */,
+				D41EC12318A222D200402FF0 /* Desk6.png */,
+				D41EC12418A222D200402FF0 /* Double bed6.png */,
+				D41EC12518A222D200402FF0 /* Exercise bike6.png */,
+				D41EC12618A222D200402FF0 /* Flat screen TV6.png */,
+				D41EC12718A222D200402FF0 /* large toy6.png */,
+				D41EC12818A222D200402FF0 /* Lighting6.png */,
+				D41EC12918A222D200402FF0 /* Loft beds6.png */,
+				D41EC12A18A222D200402FF0 /* Mirror6.png */,
+				D41EC12B18A222D200402FF0 /* Office chair6.png */,
+				D41EC12C18A222D200402FF0 /* Shelf6.png */,
+				D41EC12D18A222D200402FF0 /* Single bed6.png */,
+				D41EC12E18A222D200402FF0 /* Smal shelf6.png */,
+			);
+			path = Chambre;
+			sourceTree = "<group>";
+		};
+		D41EC13218A222D200402FF0 /* Entree */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC13318A222D200402FF0 /* app Icon_iPhone.png */,
+				D41EC13418A222D200402FF0 /* cardboard books1.png */,
+				D41EC13518A222D200402FF0 /* Carpet1.png */,
+				D41EC13618A222D200402FF0 /* Carton stand1.png */,
+				D41EC13718A222D200402FF0 /* Casual furniture (dresser)1.png */,
+				D41EC13818A222D200402FF0 /* Coat racks1.png */,
+				D41EC13918A222D200402FF0 /* Column furniture1.png */,
+				D41EC13A18A222D200402FF0 /* Console1.png */,
+				D41EC13B18A222D200402FF0 /* Lighting1.png */,
+				D41EC13C18A222D200402FF0 /* Low cabinet (chest)1.png */,
+				D41EC13D18A222D200402FF0 /* Mirror1.png */,
+				D41EC13E18A222D200402FF0 /* Shelf1.png */,
+				D41EC13F18A222D200402FF0 /* Shoe cabinet1.png */,
+				D41EC14018A222D200402FF0 /* Small auxiliary cabinet1.png */,
+				D41EC14118A222D200402FF0 /* Small shelf1.png */,
+			);
+			path = Entree;
+			sourceTree = "<group>";
+		};
+		D41EC14318A222D200402FF0 /* kitchen */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC14418A222D200402FF0 /* Bench4.png */,
+				D41EC14518A222D200402FF0 /* Bistro table4.png */,
+				D41EC14618A222D200402FF0 /* Built-in oven4.png */,
+				D41EC14718A222D200402FF0 /* Cardboard books4.png */,
+				D41EC14818A222D200402FF0 /* Carton stand4.png */,
+				D41EC14918A222D200402FF0 /* Chair4.png */,
+				D41EC14A18A222D200402FF0 /* Column furniture4.png */,
+				D41EC14B18A222D200402FF0 /* cooker hood4.png */,
+				D41EC14C18A222D200402FF0 /* Cooker4.png */,
+				D41EC14D18A222D200402FF0 /* dishwasher4.png */,
+				D41EC14E18A222D200402FF0 /* Dryer Laundry4.png */,
+				D41EC14F18A222D200402FF0 /* Folding chair4.png */,
+				D41EC15018A222D200402FF0 /* Folding table4.png */,
+				D41EC15118A222D200402FF0 /* Freezer4.png */,
+				D41EC15218A222D200402FF0 /* Fridge4.png */,
+				D41EC15318A222D200402FF0 /* Garbage can4.png */,
+				D41EC15418A222D200402FF0 /* Gas Hob4.png */,
+				D41EC15518A222D200402FF0 /* High cabinet 80cm4.png */,
+				D41EC15618A222D200402FF0 /* Highchair4.png */,
+				D41EC15718A222D200402FF0 /* Low cabinet 60cm4.png */,
+				D41EC15818A222D200402FF0 /* Low cabinet 80cm4.png */,
+				D41EC15918A222D200402FF0 /* Microwave4.png */,
+				D41EC15A18A222D200402FF0 /* Sideboard buffet4.png */,
+				D41EC15B18A222D200402FF0 /* Stool4.png */,
+				D41EC15C18A222D200402FF0 /* Table 4_6 people4.png */,
+				D41EC15D18A222D200402FF0 /* Top Fridge4.png */,
+				D41EC15E18A222D200402FF0 /* Washer4.png */,
+			);
+			path = kitchen;
+			sourceTree = "<group>";
+		};
+		D41EC15F18A222D200402FF0 /* living room */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC16018A222D200402FF0 /* 2 seater sofa2.png */,
+				D41EC16118A222D200402FF0 /* 3 seater sofa2.png */,
+				D41EC16218A222D200402FF0 /* Antique cabinet2.png */,
+				D41EC16318A222D200402FF0 /* Armchair2.png */,
+				D41EC16418A222D200402FF0 /* Bench2.png */,
+				D41EC16518A222D200402FF0 /* Cardboard books2.png */,
+				D41EC16618A222D200402FF0 /* Carpet2.png */,
+				D41EC16718A222D200402FF0 /* Carton stand2.png */,
+				D41EC16818A222D200402FF0 /* CD Column2.png */,
+				D41EC16918A222D200402FF0 /* Chair2.png */,
+				D41EC16A18A222D200402FF0 /* Chandelier2.png */,
+				D41EC16B18A222D200402FF0 /* Club Chair2.png */,
+				D41EC16C18A222D200402FF0 /* Coat racks2.png */,
+				D41EC16D18A222D200402FF0 /* Coffee table2.png */,
+				D41EC16E18A222D200402FF0 /* Console2.png */,
+				D41EC16F18A222D200402FF0 /* corner desk2.png */,
+				D41EC17018A222D200402FF0 /* Corner sofa2.png */,
+				D41EC17118A222D200402FF0 /* CRT TV2.png */,
+				D41EC17218A222D200402FF0 /* Desk2.png */,
+				D41EC17318A222D200402FF0 /* Flat screen TV2.png */,
+				D41EC17418A222D200402FF0 /* Hutch _Buffet2.png */,
+				D41EC17518A222D200402FF0 /* Large TV stand2.png */,
+				D41EC17618A222D200402FF0 /* Lighting2.png */,
+				D41EC17718A222D200402FF0 /* Living2.png */,
+				D41EC17818A222D200402FF0 /* Low cabinet (chest)2.png */,
+				D41EC17918A222D200402FF0 /* Meridienne2.png */,
+				D41EC17A18A222D200402FF0 /* Mirror2.png */,
+				D41EC17B18A222D200402FF0 /* Nesting tables2.png */,
+				D41EC17C18A222D200402FF0 /* Office chair2.png */,
+				D41EC17D18A222D200402FF0 /* Pedestal2.png */,
+				D41EC17E18A222D200402FF0 /* Portable air conditioner2.png */,
+				D41EC17F18A222D200402FF0 /* Pouffe2.png */,
+				D41EC18018A222D200402FF0 /* Rocking-chair2.png */,
+				D41EC18118A222D200402FF0 /* Secretary cabinet2.png */,
+				D41EC18218A222D200402FF0 /* Shelf column2.png */,
+				D41EC18318A222D200402FF0 /* Shelf2.png */,
+				D41EC18418A222D200402FF0 /* Small light2.png */,
+				D41EC18518A222D200402FF0 /* Small shelf2.png */,
+				D41EC18618A222D200402FF0 /* Sofa B-Z2.png */,
+				D41EC18718A222D200402FF0 /* Sofa bed2.png */,
+				D41EC18818A222D200402FF0 /* Stair Cabinet2.png */,
+				D41EC18918A222D200402FF0 /* Stool2.png */,
+				D41EC18A18A222D200402FF0 /* Table 4_6 people2.png */,
+				D41EC18B18A222D200402FF0 /* Table_8 people2.png */,
+				D41EC18C18A222D200402FF0 /* TV stand down2.png */,
+			);
+			path = "living room";
+			sourceTree = "<group>";
+		};
+		D41EC18F18A222D200402FF0 /* object specifics */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC19018A222D200402FF0 /* American Fridge9.png */,
+				D41EC19118A222D200402FF0 /* Grand piano9.png */,
+				D41EC19218A222D200402FF0 /* Motorcycle  scooter9.png */,
+				D41EC19318A222D200402FF0 /* Pool table9.png */,
+				D41EC19418A222D200402FF0 /* Strongbox9.png */,
+				D41EC19518A222D200402FF0 /* Upright piano9.png */,
+			);
+			path = "object specifics";
+			sourceTree = "<group>";
+		};
+		D41EC19618A222D200402FF0 /* parents room */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC19718A222D200402FF0 /* 2 Door Wardrobe (removable)5.png */,
+				D41EC19818A222D200402FF0 /* 3 Door Wardrobe (removable)5.png */,
+				D41EC19918A222D200402FF0 /* 4 Door Wardrobe (removable)5.png */,
+				D41EC19A18A222D200402FF0 /* Antique wardrobe5.png */,
+				D41EC19B18A222D200402FF0 /* Bedside5.png */,
+				D41EC19C18A222D200402FF0 /* Chest of drawers5.png */,
+				D41EC19D18A222D200402FF0 /* Chiffonier5.png */,
+				D41EC19E18A222D200402FF0 /* Coffer5.png */,
+				D41EC19F18A222D200402FF0 /* CRT TV5.png */,
+				D41EC1A018A222D200402FF0 /* Desk5.png */,
+				D41EC1A118A222D200402FF0 /* Double Bed5.png */,
+				D41EC1A218A222D200402FF0 /* Dressing table5.png */,
+				D41EC1A318A222D200402FF0 /* Exercise bike5.png */,
+				D41EC1A418A222D200402FF0 /* Flat screen TV5.png */,
+				D41EC1A518A222D200402FF0 /* Office chair5.png */,
+				D41EC1A618A222D200402FF0 /* Secretary cabinet5.png */,
+			);
+			path = "parents room";
+			sourceTree = "<group>";
+		};
+		D41EC1AA18A222D200402FF0 /* terrace_garden */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC1AB18A222D200402FF0 /* Adult bike8.png */,
+				D41EC1AC18A222D200402FF0 /* Barbecue8.png */,
+				D41EC1AD18A222D200402FF0 /* Child bike8.png */,
+				D41EC1AE18A222D200402FF0 /* corner desk8.png */,
+				D41EC1AF18A222D200402FF0 /* Deck chair8.png */,
+				D41EC1B018A222D200402FF0 /* Garden table8.png */,
+				D41EC1B118A222D200402FF0 /* Jardiniere8.png */,
+				D41EC1B218A222D200402FF0 /* Large plant8.png */,
+				D41EC1B318A222D200402FF0 /* Lawn chair8.png */,
+				D41EC1B418A222D200402FF0 /* Mower8.png */,
+				D41EC1B518A222D200402FF0 /* Shelf column8.png */,
+				D41EC1B618A222D200402FF0 /* Slide8.png */,
+				D41EC1B718A222D200402FF0 /* Small plant8.png */,
+				D41EC1B818A222D200402FF0 /* Stepladder8.png */,
+			);
+			path = terrace_garden;
+			sourceTree = "<group>";
+		};
+		D429026418C44E6A00A46AB5 /* backgrounds and splash screens */ = {
+			isa = PBXGroup;
+			children = (
+				D43138E918CB504400628712 /* view.png */,
+				D4468792189FC224001B9FA4 /* app_icon@2x.png */,
+				D41EC0FE18A1F13B00402FF0 /* Background.png */,
+				D41EC0FF18A1F13B00402FF0 /* orange_strip.png */,
+				D4468774189FA623001B9FA4 /* app_icon.png */,
+				D4468776189FA885001B9FA4 /* Splash_screen.png */,
+				D402F70A18BF022000108F8D /* info-26.png */,
+				D4468777189FA885001B9FA4 /* Splash_screen@2x.png */,
+				D4468797189FC505001B9FA4 /* status_bar.png */,
+				D418AFE118B3218200D5CFBF /* line.png */,
+			);
+			name = "backgrounds and splash screens";
+			sourceTree = "<group>";
+		};
+		D429026518C44E9E00A46AB5 /* Splash Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D446874E189F952C001B9FA4 /* MDDViewController.h */,
+				D446874F189F952C001B9FA4 /* MDDViewController.m */,
+			);
+			name = "Splash Screen";
+			sourceTree = "<group>";
+		};
+		D429026618C44EC800A46AB5 /* Formulaire Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D4521C4A18A0BC6E0038AACE /* MDDFormulaireViewController.h */,
+				D4521C4B18A0BC6E0038AACE /* MDDFormulaireViewController.m */,
+			);
+			name = "Formulaire Screen";
+			sourceTree = "<group>";
+		};
+		D429026718C44EDE00A46AB5 /* Volume Screen  */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC10218A2124400402FF0 /* MDDAddRoomsViewController.h */,
+				D41EC10318A2124400402FF0 /* MDDAddRoomsViewController.m */,
+				D41EC27318A24BE400402FF0 /* MDDAddItemsViewController.h */,
+				D41EC27418A24BE400402FF0 /* MDDAddItemsViewController.m */,
+				D4F76D1A18AE276B00B7DE48 /* MDDInventoryViewController.h */,
+				D4F76D1B18AE276B00B7DE48 /* MDDInventoryViewController.m */,
+			);
+			name = "Volume Screen ";
+			sourceTree = "<group>";
+		};
+		D429026818C44EE800A46AB5 /* Category Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D4232EF818A5075900780BA8 /* MDDCategoryViewController.h */,
+				D4232EF918A5075900780BA8 /* MDDCategoryViewController.m */,
+				D418AFDE18B3155A00D5CFBF /* PackageViewController.h */,
+				D418AFDF18B3155A00D5CFBF /* PackageViewController.m */,
+			);
+			name = "Category Screen";
+			sourceTree = "<group>";
+		};
+		D429026918C44EF500A46AB5 /* ValidationScreen */ = {
+			isa = PBXGroup;
+			children = (
+				D4232EFB18A5076900780BA8 /* MDDValidationViewController.h */,
+				D4232EFC18A5076900780BA8 /* MDDValidationViewController.m */,
+			);
+			name = ValidationScreen;
+			sourceTree = "<group>";
+		};
+		D429026A18C44F0100A46AB5 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D42C068518BE04790070DDB5 /* MDDHomeCategoryViewController.h */,
+				D42C068618BE04790070DDB5 /* MDDHomeCategoryViewController.m */,
+				D4468794189FC47F001B9FA4 /* MDDHomeViewController.h */,
+				D4468795189FC47F001B9FA4 /* MDDHomeViewController.m */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		D429026B18C44F8700A46AB5 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D429026E18C44FC700A46AB5 /* Navigation Bar */,
+				D429026D18C44FA700A46AB5 /* Documents Directory Class */,
+				D429026C18C44F9A00A46AB5 /* Tab Bar  */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		D429026C18C44F9A00A46AB5 /* Tab Bar  */ = {
+			isa = PBXGroup;
+			children = (
+				D4521C4D18A0E6240038AACE /* MDDCustomTabBarController.h */,
+				D4521C4E18A0E6240038AACE /* MDDCustomTabBarController.m */,
+			);
+			name = "Tab Bar ";
+			sourceTree = "<group>";
+		};
+		D429026D18C44FA700A46AB5 /* Documents Directory Class */ = {
+			isa = PBXGroup;
+			children = (
+				D41EC27018A240A600402FF0 /* PathFinder.h */,
+				D41EC27118A240A600402FF0 /* PathFinder.m */,
+			);
+			name = "Documents Directory Class";
+			sourceTree = "<group>";
+		};
+		D429026E18C44FC700A46AB5 /* Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D49C738A18AB43FF00E0FC87 /* CustomNavBar.h */,
+				D49C738B18AB43FF00E0FC87 /* CustomNavBar.m */,
+			);
+			name = "Navigation Bar";
+			sourceTree = "<group>";
+		};
+		D429026F18C44FDA00A46AB5 /* DataBase Class */ = {
+			isa = PBXGroup;
+			children = (
+				D418AFE518B38DD300D5CFBF /* SQLiteDbController.h */,
+				D418AFE618B38DD300D5CFBF /* SQLiteDbController.m */,
+			);
+			name = "DataBase Class";
+			sourceTree = "<group>";
+		};
+		D429027118C4503100A46AB5 /* MDD Assests and Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D429027218C4505B00A46AB5 /* Plists */,
+				D429026418C44E6A00A46AB5 /* backgrounds and splash screens */,
+				D40A230918B1F259008706E5 /* Categories */,
+				D41EC10518A222D200402FF0 /* Volume calculator */,
+				D4521C3918A0B7AD0038AACE /* Tab Items */,
+				D4468781189FBA03001B9FA4 /* Menu */,
+			);
+			name = "MDD Assests and Resources";
+			sourceTree = "<group>";
+		};
+		D429027218C4505B00A46AB5 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D4FBE99A18B5FDC800781727 /* CustomerDetails.plist */,
+				D41EC26C18A231DF00402FF0 /* Rooms.plist */,
+				D40A230718B1ECFF008706E5 /* Tasks.plist */,
+			);
+			name = Plists;
+			sourceTree = "<group>";
+		};
+		D429027318C4506800A46AB5 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D4468748189F952C001B9FA4 /* MDDAppDelegate.h */,
+				D4468749189F952C001B9FA4 /* MDDAppDelegate.m */,
+			);
+			name = "App Delegates";
+			sourceTree = "<group>";
+		};
+		D429027418C4509C00A46AB5 /* View Controllers and Customs */ = {
+			isa = PBXGroup;
+			children = (
+				D44B4CED18E54E97003EE03D /* AFnetwoking */,
+				D429026F18C44FDA00A46AB5 /* DataBase Class */,
+				D429026B18C44F8700A46AB5 /* Custom Classes */,
+				D429026518C44E9E00A46AB5 /* Splash Screen */,
+				D429026A18C44F0100A46AB5 /* Home Screen */,
+				D429026618C44EC800A46AB5 /* Formulaire Screen */,
+				D429026718C44EDE00A46AB5 /* Volume Screen  */,
+				D429026818C44EE800A46AB5 /* Category Screen */,
+				D429026918C44EF500A46AB5 /* ValidationScreen */,
+				D4FB020A18C9F0BC0067451D /* MDDVueViewController.h */,
+				D4FB020B18C9F0BC0067451D /* MDDVueViewController.m */,
+				D43138E618CADE5600628712 /* Reachability.h */,
+				D43138E718CADE5600628712 /* Reachability.m */,
+			);
+			name = "View Controllers and Customs";
+			sourceTree = "<group>";
+		};
+		D446872D189F952C001B9FA4 = {
+			isa = PBXGroup;
+			children = (
+				D446873F189F952C001B9FA4 /* Multi Devis-Dem */,
+				D446875E189F952C001B9FA4 /* Multi Devis-DemTests */,
+				D4468738189F952C001B9FA4 /* Frameworks */,
+				D4468737189F952C001B9FA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4468737189F952C001B9FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4468736189F952C001B9FA4 /* Multi Devis-Dem.app */,
+				D4468757189F952C001B9FA4 /* Multi Devis-DemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4468738189F952C001B9FA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC145B18B4652600DA2CC7 /* libsqlite3.0.dylib */,
+				D4468739189F952C001B9FA4 /* Foundation.framework */,
+				D446873B189F952C001B9FA4 /* CoreGraphics.framework */,
+				D446873D189F952C001B9FA4 /* UIKit.framework */,
+				D4468758189F952C001B9FA4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D446873F189F952C001B9FA4 /* Multi Devis-Dem */ = {
+			isa = PBXGroup;
+			children = (
+				D429027418C4509C00A46AB5 /* View Controllers and Customs */,
+				D429027318C4506800A46AB5 /* App Delegates */,
+				D429027118C4503100A46AB5 /* MDD Assests and Resources */,
+				D446874B189F952C001B9FA4 /* Main.storyboard */,
+				D4468751189F952C001B9FA4 /* Images.xcassets */,
+				D4468740189F952C001B9FA4 /* Supporting Files */,
+				D4FB020D18CA06470067451D /* MDDWebServiceRequestor.h */,
+				D4FB020E18CA06470067451D /* MDDWebServiceRequestor.m */,
+			);
+			path = "Multi Devis-Dem";
+			sourceTree = "<group>";
+		};
+		D4468740189F952C001B9FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4468741189F952C001B9FA4 /* Multi Devis-Dem-Info.plist */,
+				D4468742189F952C001B9FA4 /* InfoPlist.strings */,
+				D4468745189F952C001B9FA4 /* main.m */,
+				D4468747189F952C001B9FA4 /* Multi Devis-Dem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D446875E189F952C001B9FA4 /* Multi Devis-DemTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4468764189F952C001B9FA4 /* Multi_Devis_DemTests.m */,
+				D446875F189F952C001B9FA4 /* Supporting Files */,
+			);
+			path = "Multi Devis-DemTests";
+			sourceTree = "<group>";
+		};
+		D446875F189F952C001B9FA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4468760189F952C001B9FA4 /* Multi Devis-DemTests-Info.plist */,
+				D4468761189F952C001B9FA4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4468781189FBA03001B9FA4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D4468783189FBA03001B9FA4 /* category_new.png */,
+				D4468785189FBA03001B9FA4 /* help_new.png */,
+				D4468787189FBA03001B9FA4 /* quality_new.png */,
+				D4468789189FBA03001B9FA4 /* quote_new.png */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D44B4CED18E54E97003EE03D /* AFnetwoking */ = {
+			isa = PBXGroup;
+			children = (
+				D44B4CEE18E54EB9003EE03D /* AFHTTPClient.h */,
+				D44B4CEF18E54EB9003EE03D /* AFHTTPClient.m */,
+				D44B4CF018E54EB9003EE03D /* AFHTTPRequestOperation.h */,
+				D44B4CF118E54EB9003EE03D /* AFHTTPRequestOperation.m */,
+				D44B4CF218E54EB9003EE03D /* AFImageRequestOperation.h */,
+				D44B4CF318E54EB9003EE03D /* AFImageRequestOperation.m */,
+				D44B4CF418E54EB9003EE03D /* AFJSONRequestOperation.h */,
+				D44B4CF518E54EB9003EE03D /* AFJSONRequestOperation.m */,
+				D44B4CF618E54EB9003EE03D /* AFNetworkActivityIndicatorManager.h */,
+				D44B4CF718E54EB9003EE03D /* AFNetworkActivityIndicatorManager.m */,
+				D44B4CF818E54EB9003EE03D /* AFNetworking.h */,
+				D44B4CF918E54EB9003EE03D /* AFPropertyListRequestOperation.h */,
+				D44B4CFA18E54EB9003EE03D /* AFPropertyListRequestOperation.m */,
+				D44B4CFB18E54EB9003EE03D /* AFURLConnectionOperation.h */,
+				D44B4CFC18E54EB9003EE03D /* AFURLConnectionOperation.m */,
+				D44B4CFD18E54EB9003EE03D /* AFXMLRequestOperation.h */,
+				D44B4CFE18E54EB9003EE03D /* AFXMLRequestOperation.m */,
+				D44B4CFF18E54EB9003EE03D /* UIImageView+AFNetworking.h */,
+				D44B4D0018E54EB9003EE03D /* UIImageView+AFNetworking.m */,
+			);
+			name = AFnetwoking;
+			sourceTree = "<group>";
+		};
+		D4521C3918A0B7AD0038AACE /* Tab Items */ = {
+			isa = PBXGroup;
+			children = (
+				D4521C3A18A0B7AD0038AACE /* calculator-1.png */,
+				D4521C3B18A0B7AD0038AACE /* calculator.png */,
+				D4521C3C18A0B7AD0038AACE /* category-1.png */,
+				D4521C3D18A0B7AD0038AACE /* category.png */,
+				D4521C3E18A0B7AD0038AACE /* form-1.png */,
+				D4521C3F18A0B7AD0038AACE /* form.png */,
+				D4521C4018A0B7AD0038AACE /* validation-1.png */,
+				D4521C4118A0B7AD0038AACE /* validation.png */,
+			);
+			path = "Tab Items";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4468735189F952C001B9FA4 /* Multi Devis-Dem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4468768189F952C001B9FA4 /* Build configuration list for PBXNativeTarget "Multi Devis-Dem" */;
+			buildPhases = (
+				D4468732189F952C001B9FA4 /* Sources */,
+				D4468733189F952C001B9FA4 /* Frameworks */,
+				D4468734189F952C001B9FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multi Devis-Dem";
+			productName = "Multi Devis-Dem";
+			productReference = D4468736189F952C001B9FA4 /* Multi Devis-Dem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4468756189F952C001B9FA4 /* Multi Devis-DemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D446876B189F952C001B9FA4 /* Build configuration list for PBXNativeTarget "Multi Devis-DemTests" */;
+			buildPhases = (
+				D4468753189F952C001B9FA4 /* Sources */,
+				D4468754189F952C001B9FA4 /* Frameworks */,
+				D4468755189F952C001B9FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D446875D189F952C001B9FA4 /* PBXTargetDependency */,
+			);
+			name = "Multi Devis-DemTests";
+			productName = "Multi Devis-DemTests";
+			productReference = D4468757189F952C001B9FA4 /* Multi Devis-DemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D446872E189F952C001B9FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MDD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = imobigeeks;
+				TargetAttributes = {
+					D4468756189F952C001B9FA4 = {
+						TestTargetID = D4468735189F952C001B9FA4;
+					};
+				};
+			};
+			buildConfigurationList = D4468731189F952C001B9FA4 /* Build configuration list for PBXProject "Multi Devis-Dem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D446872D189F952C001B9FA4;
+			productRefGroup = D4468737189F952C001B9FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4468735189F952C001B9FA4 /* Multi Devis-Dem */,
+				D4468756189F952C001B9FA4 /* Multi Devis-DemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4468734189F952C001B9FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41EC1D318A222D200402FF0 /* Chest of drawers6.png in Resources */,
+				D4468775189FA623001B9FA4 /* app_icon.png in Resources */,
+				D41EC1D118A222D200402FF0 /* Carton stand6.png in Resources */,
+				D41EC25918A222D200402FF0 /* remove.png in Resources */,
+				D41EC22518A222D200402FF0 /* Flat screen TV2.png in Resources */,
+				D4521C4918A0B7AD0038AACE /* validation.png in Resources */,
+				D40A232118B1F259008706E5 /* Class Economic_1.png in Resources */,
+				D41EC21A18A222D200402FF0 /* CD Column2.png in Resources */,
+				D41EC25218A222D200402FF0 /* Dressing table5.png in Resources */,
+				D41EC24B18A222D200402FF0 /* Bedside5.png in Resources */,
+				D4521C4518A0B7AD0038AACE /* category.png in Resources */,
+				D41EC24D18A222D200402FF0 /* Chiffonier5.png in Resources */,
+				D41EC25C18A222D200402FF0 /* Child bike8.png in Resources */,
+				D41EC26A18A222D200402FF0 /* truck_loaded.png in Resources */,
+				D41EC1CE18A222D200402FF0 /* Antique wardrobe6.png in Resources */,
+				D41EC1EF18A222D200402FF0 /* Lighting1.png in Resources */,
+				D41EC23B18A222D200402FF0 /* Stool2.png in Resources */,
+				D41EC1E618A222D200402FF0 /* Ding.wav in Resources */,
+				D41EC1F018A222D200402FF0 /* Low cabinet (chest)1.png in Resources */,
+				D41EC26818A222D200402FF0 /* tooltip.png in Resources */,
+				D41EC23918A222D200402FF0 /* Sofa bed2.png in Resources */,
+				D40A232318B1F259008706E5 /* class_comfort-3.png in Resources */,
+				D41EC21718A222D200402FF0 /* Cardboard books2.png in Resources */,
+				D41EC24018A222D200402FF0 /* next.png in Resources */,
+				D41EC10018A1F13B00402FF0 /* Background.png in Resources */,
+				D41EC23318A222D200402FF0 /* Secretary cabinet2.png in Resources */,
+				D43138EA18CB504400628712 /* view.png in Resources */,
+				D41EC26118A222D200402FF0 /* Large plant8.png in Resources */,
+				D41EC21218A222D200402FF0 /* 2 seater sofa2.png in Resources */,
+				D41EC22618A222D200402FF0 /* Hutch _Buffet2.png in Resources */,
+				D41EC1D618A222D200402FF0 /* CRT TV6.png in Resources */,
+				D41EC1BD18A222D200402FF0 /* add.png in Resources */,
+				D41EC21018A222D200402FF0 /* Top Fridge4.png in Resources */,
+				D41EC20D18A222D200402FF0 /* Sideboard buffet4.png in Resources */,
+				D41EC25A18A222D200402FF0 /* Adult bike8.png in Resources */,
+				D418AFE218B3218200D5CFBF /* line.png in Resources */,
+				D40A232B18B1F259008706E5 /* line-1.png in Resources */,
+				D41EC26418A222D200402FF0 /* Shelf column8.png in Resources */,
+				D41EC26018A222D200402FF0 /* Jardiniere8.png in Resources */,
+				D41EC22B18A222D200402FF0 /* Meridienne2.png in Resources */,
+				D446878B189FBA03001B9FA4 /* category_new.png in Resources */,
+				D41EC23418A222D200402FF0 /* Shelf column2.png in Resources */,
+				D41EC1CF18A222D200402FF0 /* Cardboard Books6.png in Resources */,
+				D41EC21C18A222D200402FF0 /* Chandelier2.png in Resources */,
+				D41EC26518A222D200402FF0 /* Slide8.png in Resources */,
+				D41EC1D818A222D200402FF0 /* Desk6.png in Resources */,
+				D41EC25118A222D200402FF0 /* Double Bed5.png in Resources */,
+				D41EC21818A222D200402FF0 /* Carpet2.png in Resources */,
+				D41EC1F918A222D200402FF0 /* Built-in oven4.png in Resources */,
+				D41EC24218A222D200402FF0 /* Grand piano9.png in Resources */,
+				D41EC20518A222D200402FF0 /* Fridge4.png in Resources */,
+				D41EC25E18A222D200402FF0 /* Deck chair8.png in Resources */,
+				D41EC26218A222D200402FF0 /* Lawn chair8.png in Resources */,
+				D41EC1DC18A222D200402FF0 /* large toy6.png in Resources */,
+				D4468752189F952C001B9FA4 /* Images.xcassets in Resources */,
+				D41EC23718A222D200402FF0 /* Small shelf2.png in Resources */,
+				D41EC20118A222D200402FF0 /* Dryer Laundry4.png in Resources */,
+				D41EC1BF18A222D200402FF0 /* Carton stand3.png in Resources */,
+				D41EC22F18A222D200402FF0 /* Pedestal2.png in Resources */,
+				D41EC20418A222D200402FF0 /* Freezer4.png in Resources */,
+				D41EC1EC18A222D200402FF0 /* Coat racks1.png in Resources */,
+				D41EC26718A222D200402FF0 /* Stepladder8.png in Resources */,
+				D41EC22A18A222D200402FF0 /* Low cabinet (chest)2.png in Resources */,
+				D4468793189FC224001B9FA4 /* app_icon@2x.png in Resources */,
+				D40A232918B1F259008706E5 /* empty_check_box.png in Resources */,
+				D41EC22818A222D200402FF0 /* Lighting2.png in Resources */,
+				D41EC20E18A222D200402FF0 /* Stool4.png in Resources */,
+				D41EC25718A222D200402FF0 /* previous-1.png in Resources */,
+				D41EC1FC18A222D200402FF0 /* Chair4.png in Resources */,
+				D41EC21B18A222D200402FF0 /* Chair2.png in Resources */,
+				D41EC26318A222D200402FF0 /* Mower8.png in Resources */,
+				D41EC20A18A222D200402FF0 /* Low cabinet 60cm4.png in Resources */,
+				D40A232818B1F259008706E5 /* Economique_fr.html in Resources */,
+				D41EC26B18A222D200402FF0 /* Updated_french_items.plist in Resources */,
+				D4468778189FA886001B9FA4 /* Splash_screen.png in Resources */,
+				D4521C4618A0B7AD0038AACE /* form-1.png in Resources */,
+				D41EC1BE18A222D200402FF0 /* Cardboard books3.png in Resources */,
+				D41EC1F718A222D200402FF0 /* Bench4.png in Resources */,
+				D41EC1C618A222D200402FF0 /* Mirror3.png in Resources */,
+				D41EC1FE18A222D200402FF0 /* cooker hood4.png in Resources */,
+				D446878F189FBA03001B9FA4 /* quality_new.png in Resources */,
+				D4468798189FC505001B9FA4 /* status_bar.png in Resources */,
+				D41EC1C518A222D200402FF0 /* Medicine cabinet3.png in Resources */,
+				D41EC23118A222D200402FF0 /* Pouffe2.png in Resources */,
+				D41EC1D218A222D200402FF0 /* Changing Table6.png in Resources */,
+				D40A231E18B1F259008706E5 /* checked_box.png in Resources */,
+				D41EC24718A222D200402FF0 /* 2 Door Wardrobe (removable)5.png in Resources */,
+				D41EC22118A222D200402FF0 /* corner desk2.png in Resources */,
+				D41EC20318A222D200402FF0 /* Folding table4.png in Resources */,
+				D41EC21918A222D200402FF0 /* Carton stand2.png in Resources */,
+				D40A230818B1ECFF008706E5 /* Tasks.plist in Resources */,
+				D41EC1CB18A222D200402FF0 /* 2 Door Wardrobe (removable)6.png in Resources */,
+				D41EC1FF18A222D200402FF0 /* Cooker4.png in Resources */,
+				D41EC24C18A222D200402FF0 /* Chest of drawers5.png in Resources */,
+				D41EC1CD18A222D200402FF0 /* 4 Door Wardrobe (removable)6.png in Resources */,
+				D40A232C18B1F259008706E5 /* main.css in Resources */,
+				D41EC1D918A222D200402FF0 /* Double bed6.png in Resources */,
+				D41EC1E018A222D200402FF0 /* Office chair6.png in Resources */,
+				D4521C4318A0B7AD0038AACE /* calculator.png in Resources */,
+				D41EC1EA18A222D200402FF0 /* Carton stand1.png in Resources */,
+				D41EC26918A222D200402FF0 /* truck_empty.png in Resources */,
+				D41EC23F18A222D200402FF0 /* next-1.png in Resources */,
+				D41EC24418A222D200402FF0 /* Pool table9.png in Resources */,
+				D40A232418B1F259008706E5 /* class_economic-3.png in Resources */,
+				D40A232718B1F259008706E5 /* Confort_fr.html in Resources */,
+				D41EC23D18A222D200402FF0 /* Table_8 people2.png in Resources */,
+				D41EC1C418A222D200402FF0 /* High cabinet3.png in Resources */,
+				D41EC25B18A222D200402FF0 /* Barbecue8.png in Resources */,
+				D41EC20F18A222D200402FF0 /* Table 4_6 people4.png in Resources */,
+				D41EC1E118A222D200402FF0 /* Shelf6.png in Resources */,
+				D41EC24E18A222D200402FF0 /* Coffer5.png in Resources */,
+				D41EC1E318A222D200402FF0 /* Smal shelf6.png in Resources */,
+				D41EC1F418A222D200402FF0 /* Small auxiliary cabinet1.png in Resources */,
+				D41EC20018A222D200402FF0 /* dishwasher4.png in Resources */,
+				D4468791189FBA03001B9FA4 /* quote_new.png in Resources */,
+				D41EC1DB18A222D200402FF0 /* Flat screen TV6.png in Resources */,
+				D41EC23818A222D200402FF0 /* Sofa B-Z2.png in Resources */,
+				D41EC1E218A222D200402FF0 /* Single bed6.png in Resources */,
+				D41EC1D718A222D200402FF0 /* desk with back6.png in Resources */,
+				D41EC25F18A222D200402FF0 /* Garden table8.png in Resources */,
+				D41EC22718A222D200402FF0 /* Large TV stand2.png in Resources */,
+				D40A232218B1F259008706E5 /* Class Standard_1.png in Resources */,
+				D41EC1ED18A222D200402FF0 /* Column furniture1.png in Resources */,
+				D41EC1DA18A222D200402FF0 /* Exercise bike6.png in Resources */,
+				D4521C4818A0B7AD0038AACE /* validation-1.png in Resources */,
+				D41EC24618A222D200402FF0 /* Upright piano9.png in Resources */,
+				D41EC22C18A222D200402FF0 /* Mirror2.png in Resources */,
+				D41EC21318A222D200402FF0 /* 3 seater sofa2.png in Resources */,
+				D41EC1F818A222D200402FF0 /* Bistro table4.png in Resources */,
+				D41EC1C318A222D200402FF0 /* Dryer Laundry3.png in Resources */,
+				D41EC20218A222D200402FF0 /* Folding chair4.png in Resources */,
+				D41EC26D18A231DF00402FF0 /* Rooms.plist in Resources */,
+				D41EC20B18A222D200402FF0 /* Low cabinet 80cm4.png in Resources */,
+				D41EC22E18A222D200402FF0 /* Office chair2.png in Resources */,
+				D41EC22318A222D200402FF0 /* CRT TV2.png in Resources */,
+				D41EC1E518A222D200402FF0 /* delete.png in Resources */,
+				D41EC1C118A222D200402FF0 /* Clothes basket3.png in Resources */,
+				D4521C4718A0B7AD0038AACE /* form.png in Resources */,
+				D41EC1FD18A222D200402FF0 /* Column furniture4.png in Resources */,
+				D41EC24918A222D200402FF0 /* 4 Door Wardrobe (removable)5.png in Resources */,
+				D41EC1C718A222D200402FF0 /* washing machine3.png in Resources */,
+				D4468779189FA886001B9FA4 /* Splash_screen@2x.png in Resources */,
+				D41EC1FB18A222D200402FF0 /* Carton stand4.png in Resources */,
+				D41EC24518A222D200402FF0 /* Strongbox9.png in Resources */,
+				D41EC1FA18A222D200402FF0 /* Cardboard books4.png in Resources */,
+				D41EC21D18A222D200402FF0 /* Club Chair2.png in Resources */,
+				D41EC24318A222D200402FF0 /* Motorcycle  scooter9.png in Resources */,
+				D446878D189FBA03001B9FA4 /* help_new.png in Resources */,
+				D41EC23A18A222D200402FF0 /* Stair Cabinet2.png in Resources */,
+				D41EC23C18A222D200402FF0 /* Table 4_6 people2.png in Resources */,
+				D40A231D18B1F259008706E5 /* check_box_empty.png in Resources */,
+				D41EC1E818A222D200402FF0 /* cardboard books1.png in Resources */,
+				D41EC1C018A222D200402FF0 /* Changing Table3.png in Resources */,
+				D41EC1EE18A222D200402FF0 /* Console1.png in Resources */,
+				D41EC1CC18A222D200402FF0 /* 3 Door Wardrobe (removable)6.png in Resources */,
+				D41EC21418A222D200402FF0 /* Antique cabinet2.png in Resources */,
+				D41EC23618A222D200402FF0 /* Small light2.png in Resources */,
+				D40A232018B1F259008706E5 /* Class Comfort_1.png in Resources */,
+				D41EC1E418A222D200402FF0 /* close.png in Resources */,
+				D41EC1D418A222D200402FF0 /* Coffer6.png in Resources */,
+				D4521C4218A0B7AD0038AACE /* calculator-1.png in Resources */,
+				D41EC21F18A222D200402FF0 /* Coffee table2.png in Resources */,
+				D41EC24818A222D200402FF0 /* 3 Door Wardrobe (removable)5.png in Resources */,
+				D4521C4418A0B7AD0038AACE /* category-1.png in Resources */,
+				D41EC23E18A222D200402FF0 /* TV stand down2.png in Resources */,
+				D40A232A18B1F259008706E5 /* FrenchCategories.plist in Resources */,
+				D41EC25418A222D200402FF0 /* Flat screen TV5.png in Resources */,
+				D41EC1E718A222D200402FF0 /* app Icon_iPhone.png in Resources */,
+				D41EC25618A222D200402FF0 /* Secretary cabinet5.png in Resources */,
+				D41EC1C918A222D200402FF0 /* camera.png in Resources */,
+				D41EC20C18A222D200402FF0 /* Microwave4.png in Resources */,
+				D41EC21E18A222D200402FF0 /* Coat racks2.png in Resources */,
+				D40A231F18B1F259008706E5 /* checkmark.png in Resources */,
+				D41EC1C818A222D200402FF0 /* Washstand3.png in Resources */,
+				D41EC21118A222D200402FF0 /* Washer4.png in Resources */,
+				D402F70B18BF022000108F8D /* info-26.png in Resources */,
+				D41EC20918A222D200402FF0 /* Highchair4.png in Resources */,
+				D41EC23018A222D200402FF0 /* Portable air conditioner2.png in Resources */,
+				D41EC25018A222D200402FF0 /* Desk5.png in Resources */,
+				D41EC1DF18A222D200402FF0 /* Mirror6.png in Resources */,
+				D4468744189F952C001B9FA4 /* InfoPlist.strings in Resources */,
+				D41EC22018A222D200402FF0 /* Console2.png in Resources */,
+				D41EC1F218A222D200402FF0 /* Shelf1.png in Resources */,
+				D41EC23518A222D200402FF0 /* Shelf2.png in Resources */,
+				D41EC22D18A222D200402FF0 /* Nesting tables2.png in Resources */,
+				D41EC20618A222D200402FF0 /* Garbage can4.png in Resources */,
+				D41EC21618A222D200402FF0 /* Bench2.png in Resources */,
+				D41EC24A18A222D200402FF0 /* Antique wardrobe5.png in Resources */,
+				D41EC24118A222D200402FF0 /* American Fridge9.png in Resources */,
+				D41EC22918A222D200402FF0 /* Living2.png in Resources */,
+				D41EC1E918A222D200402FF0 /* Carpet1.png in Resources */,
+				D41EC25818A222D200402FF0 /* previous.png in Resources */,
+				D41EC1F118A222D200402FF0 /* Mirror1.png in Resources */,
+				D41EC1D018A222D200402FF0 /* Carpet6.png in Resources */,
+				D41EC1D518A222D200402FF0 /* Crib6.png in Resources */,
+				D41EC20818A222D200402FF0 /* High cabinet 80cm4.png in Resources */,
+				D41EC22418A222D200402FF0 /* Desk2.png in Resources */,
+				D41EC20718A222D200402FF0 /* Gas Hob4.png in Resources */,
+				D41EC23218A222D200402FF0 /* Rocking-chair2.png in Resources */,
+				D41EC1F518A222D200402FF0 /* Small shelf1.png in Resources */,
+				D41EC1DE18A222D200402FF0 /* Loft beds6.png in Resources */,
+				D40A231C18B1F259008706E5 /* check_box.png in Resources */,
+				D41EC1CA18A222D200402FF0 /* 1 Door Wardrobe6.png in Resources */,
+				D41EC26618A222D200402FF0 /* Small plant8.png in Resources */,
+				D41EC1DD18A222D200402FF0 /* Lighting6.png in Resources */,
+				D40A232618B1F259008706E5 /* close_icon.png in Resources */,
+				D40A232D18B1F259008706E5 /* Standard_fr.html in Resources */,
+				D41EC25D18A222D200402FF0 /* corner desk8.png in Resources */,
+				D41EC1C218A222D200402FF0 /* Column furniture3.png in Resources */,
+				D41EC24F18A222D200402FF0 /* CRT TV5.png in Resources */,
+				D41EC1EB18A222D200402FF0 /* Casual furniture (dresser)1.png in Resources */,
+				D41EC1F318A222D200402FF0 /* Shoe cabinet1.png in Resources */,
+				D41EC10118A1F13B00402FF0 /* orange_strip.png in Resources */,
+				D446874D189F952C001B9FA4 /* Main.storyboard in Resources */,
+				D4FBE99B18B5FDC800781727 /* CustomerDetails.plist in Resources */,
+				D41EC25318A222D200402FF0 /* Exercise bike5.png in Resources */,
+				D41EC21518A222D200402FF0 /* Armchair2.png in Resources */,
+				D40A232518B1F259008706E5 /* class_standard-3.png in Resources */,
+				D41EC25518A222D200402FF0 /* Office chair5.png in Resources */,
+				D41EC22218A222D200402FF0 /* Corner sofa2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4468755189F952C001B9FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4468763189F952C001B9FA4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4468732189F952C001B9FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44B4D0718E54EB9003EE03D /* AFURLConnectionOperation.m in Sources */,
+				D446874A189F952C001B9FA4 /* MDDAppDelegate.m in Sources */,
+				D41EC10418A2124400402FF0 /* MDDAddRoomsViewController.m in Sources */,
+				D4468746189F952C001B9FA4 /* main.m in Sources */,
+				D4521C4F18A0E6240038AACE /* MDDCustomTabBarController.m in Sources */,
+				D418AFE718B38DD300D5CFBF /* SQLiteDbController.m in Sources */,
+				D42C068718BE04790070DDB5 /* MDDHomeCategoryViewController.m in Sources */,
+				D44B4D0218E54EB9003EE03D /* AFHTTPRequestOperation.m in Sources */,
+				D41EC27218A240A600402FF0 /* PathFinder.m in Sources */,
+				D4468750189F952C001B9FA4 /* MDDViewController.m in Sources */,
+				D44B4D0818E54EB9003EE03D /* AFXMLRequestOperation.m in Sources */,
+				D41EC27518A24BE400402FF0 /* MDDAddItemsViewController.m in Sources */,
+				D418AFE018B3155A00D5CFBF /* PackageViewController.m in Sources */,
+				D43138E818CADE5600628712 /* Reachability.m in Sources */,
+				D4F76D1C18AE276B00B7DE48 /* MDDInventoryViewController.m in Sources */,
+				D4FB020C18C9F0BC0067451D /* MDDVueViewController.m in Sources */,
+				D44B4D0318E54EB9003EE03D /* AFImageRequestOperation.m in Sources */,
+				D4521C4C18A0BC6E0038AACE /* MDDFormulaireViewController.m in Sources */,
+				D4468796189FC47F001B9FA4 /* MDDHomeViewController.m in Sources */,
+				D44B4D0918E54EB9003EE03D /* UIImageView+AFNetworking.m in Sources */,
+				D44B4D0118E54EB9003EE03D /* AFHTTPClient.m in Sources */,
+				D44B4D0418E54EB9003EE03D /* AFJSONRequestOperation.m in Sources */,
+				D49C738C18AB43FF00E0FC87 /* CustomNavBar.m in Sources */,
+				D44B4D0518E54EB9003EE03D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				D4FB020F18CA06470067451D /* MDDWebServiceRequestor.m in Sources */,
+				D4232EFA18A5075900780BA8 /* MDDCategoryViewController.m in Sources */,
+				D44B4D0618E54EB9003EE03D /* AFPropertyListRequestOperation.m in Sources */,
+				D4232EFD18A5076900780BA8 /* MDDValidationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4468753189F952C001B9FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4468765189F952C001B9FA4 /* Multi_Devis_DemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D446875D189F952C001B9FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4468735189F952C001B9FA4 /* Multi Devis-Dem */;
+			targetProxy = D446875C189F952C001B9FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4468742189F952C001B9FA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4468743189F952C001B9FA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D446874B189F952C001B9FA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D446874C189F952C001B9FA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4468761189F952C001B9FA4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4468762189F952C001B9FA4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4468766189F952C001B9FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4468767189F952C001B9FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4468769189F952C001B9FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Devis-Dem/Multi Devis-Dem-Prefix.pch";
+				INFOPLIST_FILE = "Multi Devis-Dem/Multi Devis-Dem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D446876A189F952C001B9FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Devis-Dem/Multi Devis-Dem-Prefix.pch";
+				INFOPLIST_FILE = "Multi Devis-Dem/Multi Devis-Dem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D446876C189F952C001B9FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multi Devis-Dem.app/Multi Devis-Dem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Devis-Dem/Multi Devis-Dem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Multi Devis-DemTests/Multi Devis-DemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D446876D189F952C001B9FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Multi Devis-Dem.app/Multi Devis-Dem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Multi Devis-Dem/Multi Devis-Dem-Prefix.pch";
+				INFOPLIST_FILE = "Multi Devis-DemTests/Multi Devis-DemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4468731189F952C001B9FA4 /* Build configuration list for PBXProject "Multi Devis-Dem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4468766189F952C001B9FA4 /* Debug */,
+				D4468767189F952C001B9FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4468768189F952C001B9FA4 /* Build configuration list for PBXNativeTarget "Multi Devis-Dem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4468769189F952C001B9FA4 /* Debug */,
+				D446876A189F952C001B9FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D446876B189F952C001B9FA4 /* Build configuration list for PBXNativeTarget "Multi Devis-DemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D446876C189F952C001B9FA4 /* Debug */,
+				D446876D189F952C001B9FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D446872E189F952C001B9FA4 /* Project object */;
+}

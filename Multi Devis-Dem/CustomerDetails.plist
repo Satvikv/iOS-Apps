@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AAInformation Personnelles</key>
+	<dict>
+		<key>AACivility,Name</key>
+		<array>
+			<string>Nom,Prénom (Raison sociale)</string>
+			<string> </string>
+		</array>
+		<key>BBAddress</key>
+		<array>
+			<string>Adresse (de correspondance)</string>
+			<string> </string>
+		</array>
+		<key>CCPostCode</key>
+		<array>
+			<string>Code Postal</string>
+			<string> </string>
+		</array>
+		<key>DDCity</key>
+		<array>
+			<string>ville</string>
+			<string> </string>
+		</array>
+		<key>EETel</key>
+		<array>
+			<string>Téléphone</string>
+			<string> </string>
+		</array>
+		<key>FFEmail</key>
+		<array>
+			<string>E-mail</string>
+			<string></string>
+		</array>
+	</dict>
+	<key>BBAddresse de chargement</key>
+	<dict>
+		<key>AALoadingAddress</key>
+		<array>
+			<string>Addresse</string>
+			<string> </string>
+		</array>
+		<key>BBLoadingPostCode</key>
+		<array>
+			<string>Code Postal</string>
+			<string> </string>
+		</array>
+		<key>CCLoadingCity</key>
+		<array>
+			<string>Ville</string>
+			<string> </string>
+		</array>
+		<key>DDLoadingAccess</key>
+		<array>
+			<string>Accés </string>
+			<string>Accés </string>
+		</array>
+		<key>EELoadingFloor</key>
+		<array>
+			<string> Etage</string>
+			<string> Etage</string>
+		</array>
+		<key>FFLoadingMonteFurniture</key>
+		<array>
+			<string> Nécessité de monte meuble</string>
+			<string> Nécessité de monte meuble</string>
+		</array>
+		<key>GGLoadingExistenceElevator</key>
+		<array>
+			<string>Ascenceur</string>
+			<string>Ascenceur</string>
+		</array>
+		<key>HHLoadingElevator</key>
+		<array>
+			<string>Capacité en nombre de personnes</string>
+			<string>Capacité en nombre de personnes</string>
+		</array>
+	</dict>
+	<key>CCAdresse de livraison</key>
+	<dict>
+		<key>AADeliveryAddress</key>
+		<array>
+			<string>Adresse</string>
+			<string> </string>
+		</array>
+		<key>BBDeliveryPostCode</key>
+		<array>
+			<string>Code Postal</string>
+			<string> </string>
+		</array>
+		<key>CCDeliveryCity</key>
+		<array>
+			<string>Ville</string>
+			<string> </string>
+		</array>
+		<key>DDDeliveryAccess</key>
+		<array>
+			<string>Accés </string>
+			<string>Accés </string>
+		</array>
+		<key>EEDeliveryFloor</key>
+		<array>
+			<string> Etage</string>
+			<string> Etage</string>
+		</array>
+		<key>FFDeliveryMonteFurniture</key>
+		<array>
+			<string> Nécessité de monte meuble</string>
+			<string> Nécessité de monte meuble</string>
+		</array>
+		<key>GGDeliveryExistenceElevator</key>
+		<array>
+			<string>Ascenceur</string>
+			<string>Ascenceur</string>
+		</array>
+		<key>HHDeliveryElevator</key>
+		<array>
+			<string>Capacité en nombre de personnes</string>
+			<string>Capacité en nombre de personnes</string>
+		</array>
+		<key>IIDeliveryComment</key>
+		<array>
+			<string>Commentaire</string>
+			<string>Commentaire</string>
+		</array>
+		<key>JJDateDemenagement</key>
+		<array>
+			<string>Date du démangement</string>
+			<string>Date du démangement</string>
+		</array>
+	</dict>
+	<key>DDDéménagement</key>
+	<dict>
+		<key>AACategory</key>
+		<array>
+			<string>Catégorie </string>
+			<string> </string>
+		</array>
+		<key>BBVolume</key>
+		<array>
+			<string>Volume</string>
+			<string> </string>
+		</array>
+	</dict>
+</dict>
+</plist>
